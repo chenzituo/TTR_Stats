@@ -587,14 +587,15 @@
         28,
         29
       ],
-      "spaceAmount": 8,
+      "spaceAmount": 6,
       "lanes": [
         {
           "id": 55,
-          "colour": "grey"
+          "colour": "black"
         }
       ],
-      "curvature": 24
+      "curvature": 24,
+      "routeType": "ocean"
     },
     {
       "id": 45,
@@ -625,11 +626,12 @@
         },
         {
           "id": 62,
-          "colour": "grey"
+          "colour": "red"
         }
       ],
       "curvature": 0,
-      "isTunnel": true
+      "isTunnel": true,
+      "routeType": "train"
     },
     {
       "id": 21,
@@ -674,7 +676,8 @@
           "colour": "green"
         }
       ],
-      "curvature": 18
+      "curvature": 18,
+      "routeType": "ocean"
     },
     {
       "id": 36,
@@ -701,14 +704,16 @@
         5,
         6
       ],
-      "spaceAmount": 4,
+      "spaceAmount": 3,
       "lanes": [
         {
           "id": 37,
-          "colour": "white"
+          "colour": "grey"
         }
       ],
-      "curvature": 7
+      "curvature": 7,
+      "routeType": "ocean",
+      "tunnelCostDouble": true
     },
     {
       "id": 46,
@@ -768,22 +773,8 @@
           "colour": "black"
         }
       ],
-      "curvature": 0
-    },
-    {
-      "id": 5,
-      "placeIds": [
-        9,
-        3
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 6,
-          "colour": "red"
-        }
-      ],
-      "curvature": 18
+      "curvature": 0,
+      "tunnelCostDouble": true
     },
     {
       "id": 10,
@@ -802,7 +793,8 @@
           "colour": "yellow"
         }
       ],
-      "curvature": -8
+      "curvature": -8,
+      "routeType": "ocean"
     },
     {
       "id": 12,
@@ -821,7 +813,8 @@
           "colour": "grey"
         }
       ],
-      "curvature": -15
+      "curvature": -15,
+      "tunnelCostDouble": true
     },
     {
       "id": 9,
@@ -840,7 +833,8 @@
           "colour": "white"
         }
       ],
-      "curvature": -42
+      "curvature": -42,
+      "tunnelCostDouble": true
     },
     {
       "id": 50,
@@ -859,7 +853,8 @@
           "colour": "red"
         }
       ],
-      "curvature": -19
+      "curvature": -19,
+      "routeType": "ocean"
     },
     {
       "id": 42,
@@ -874,7 +869,8 @@
           "colour": "yellow"
         }
       ],
-      "curvature": -15.556856690294055
+      "curvature": -15,
+      "tunnelCostDouble": true
     },
     {
       "id": 53,
@@ -909,7 +905,8 @@
           "colour": "white"
         }
       ],
-      "curvature": 10
+      "curvature": 10,
+      "routeType": "train"
     },
     {
       "id": 11,
@@ -921,7 +918,7 @@
       "lanes": [
         {
           "id": 15,
-          "colour": "purple"
+          "colour": "green"
         }
       ],
       "curvature": 20
@@ -969,7 +966,8 @@
           "colour": "yellow"
         }
       ],
-      "curvature": -23
+      "curvature": -23,
+      "tunnelCostDouble": true
     },
     {
       "id": 29,
@@ -984,7 +982,8 @@
           "colour": "orange"
         }
       ],
-      "curvature": 28
+      "curvature": 28,
+      "tunnelCostDouble": true
     },
     {
       "id": 17,
@@ -999,7 +998,8 @@
           "colour": "black"
         }
       ],
-      "curvature": 8
+      "curvature": 8,
+      "tunnelCostDouble": true
     },
     {
       "id": 54,
@@ -1014,7 +1014,8 @@
           "colour": "grey"
         }
       ],
-      "curvature": -28
+      "curvature": -28,
+      "routeType": "train"
     },
     {
       "id": 67,
@@ -1029,7 +1030,8 @@
           "colour": "white"
         }
       ],
-      "curvature": 14
+      "curvature": 14,
+      "tunnelCostDouble": true
     },
     {
       "id": 31,
@@ -1044,7 +1046,8 @@
           "colour": "blue"
         }
       ],
-      "curvature": 11
+      "curvature": 11,
+      "routeType": "ocean"
     },
     {
       "id": 34,
@@ -1059,7 +1062,8 @@
           "colour": "red"
         }
       ],
-      "curvature": 31
+      "curvature": 31,
+      "routeType": "ocean"
     },
     {
       "id": 23,
@@ -1074,7 +1078,8 @@
           "colour": "purple"
         }
       ],
-      "curvature": 0
+      "curvature": 0,
+      "routeType": "ocean"
     },
     {
       "id": 15,
@@ -1089,7 +1094,8 @@
           "colour": "yellow"
         }
       ],
-      "curvature": 17
+      "curvature": 17,
+      "routeType": "ocean"
     },
     {
       "id": 48,
@@ -1123,7 +1129,8 @@
           "colour": "grey"
         }
       ],
-      "curvature": 9
+      "curvature": 9,
+      "tunnelCostDouble": true
     },
     {
       "id": 28,
@@ -1142,7 +1149,8 @@
           "colour": "orange"
         }
       ],
-      "curvature": 0
+      "curvature": 0,
+      "tunnelCostDouble": true
     },
     {
       "id": 57,
@@ -1162,7 +1170,9 @@
         }
       ],
       "curvature": 0,
-      "isTunnel": true
+      "isTunnel": true,
+      "routeType": "train",
+      "tunnelCostDouble": true
     },
     {
       "id": 58,
@@ -1181,7 +1191,8 @@
           "colour": "black"
         }
       ],
-      "curvature": -18
+      "curvature": -18,
+      "routeType": "train"
     },
     {
       "id": 40,
@@ -1211,7 +1222,8 @@
           "colour": "purple"
         }
       ],
-      "curvature": 13
+      "curvature": 13,
+      "tunnelCostDouble": true
     },
     {
       "id": 2,
@@ -1241,7 +1253,8 @@
           "colour": "black"
         }
       ],
-      "curvature": -15
+      "curvature": -15,
+      "tunnelCostDouble": true
     },
     {
       "id": 32,
@@ -1256,7 +1269,8 @@
           "colour": "orange"
         }
       ],
-      "curvature": 7
+      "curvature": 7,
+      "routeType": "ocean"
     },
     {
       "id": 66,
@@ -1396,7 +1410,8 @@
           "colour": "red"
         }
       ],
-      "curvature": 0
+      "curvature": 0,
+      "tunnelCostDouble": true
     },
     {
       "id": 38,
@@ -1471,6 +1486,10 @@
         {
           "id": 83,
           "colour": "grey"
+        },
+        {
+          "id": 93,
+          "colour": "white"
         }
       ],
       "curvature": 0
@@ -1492,7 +1511,8 @@
           "colour": "grey"
         }
       ],
-      "curvature": 25.583975316501864
+      "curvature": 25,
+      "tunnelCostDouble": true
     },
     {
       "id": 73,
@@ -1508,7 +1528,8 @@
         }
       ],
       "curvature": -22,
-      "wrapAround": true
+      "wrapAround": true,
+      "tunnelCostDouble": true
     },
     {
       "id": 74,
@@ -1524,7 +1545,8 @@
         }
       ],
       "curvature": -22,
-      "wrapAround": true
+      "wrapAround": true,
+      "routeType": "ocean"
     },
     {
       "id": 75,
@@ -1539,7 +1561,8 @@
           "colour": "blue"
         }
       ],
-      "curvature": 0
+      "curvature": 0,
+      "tunnelCostDouble": true
     },
     {
       "id": 76,
@@ -1555,473 +1578,575 @@
         }
       ],
       "curvature": 0
+    },
+    {
+      "id": 77,
+      "placeIds": [
+        19,
+        1
+      ],
+      "spaceAmount": 6,
+      "lanes": [
+        {
+          "id": 90,
+          "colour": "white"
+        },
+        {
+          "id": 90,
+          "colour": "orange"
+        }
+      ],
+      "curvature": 10,
+      "routeType": "ocean"
+    },
+    {
+      "id": 78,
+      "placeIds": [
+        9,
+        3
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 91,
+          "colour": "red"
+        }
+      ],
+      "curvature": 18,
+      "tunnelCostDouble": true
+    },
+    {
+      "id": 79,
+      "placeIds": [
+        28,
+        24
+      ],
+      "spaceAmount": 5,
+      "lanes": [
+        {
+          "id": 92,
+          "colour": "green"
+        }
+      ],
+      "curvature": -22,
+      "wrapAround": true
     }
   ],
   "routeDecks": {
     "standard": [
       {
-        "id": 27,
+        "placeIds": [
+          4,
+          27
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          3,
+          20
+        ],
+        "score": 9,
+        "hops": 4
+      },
+      {
         "placeIds": [
           12,
-          22
-        ],
-        "score": 15
-      },
-      {
-        "id": 20,
-        "placeIds": [
-          7,
-          28
-        ],
-        "score": 14
-      },
-      {
-        "id": 30,
-        "placeIds": [
-          13,
           29
         ],
-        "score": 14
+        "score": 8,
+        "hops": 3
       },
       {
-        "id": 32,
         "placeIds": [
-          14,
-          27
-        ],
-        "score": 14
-      },
-      {
-        "id": 9,
-        "placeIds": [
-          2,
-          22
-        ],
-        "score": 13
-      },
-      {
-        "id": 34,
-        "placeIds": [
-          15,
-          23
-        ],
-        "score": 13
-      },
-      {
-        "id": 12,
-        "placeIds": [
-          3,
-          27
-        ],
-        "score": 12
-      },
-      {
-        "id": 25,
-        "placeIds": [
-          11,
-          20
-        ],
-        "score": 12
-      },
-      {
-        "id": 4,
-        "placeIds": [
-          1,
-          24
-        ],
-        "score": 11
-      },
-      {
-        "id": 14,
-        "placeIds": [
-          4,
-          22
-        ],
-        "score": 11
-      },
-      {
-        "id": 29,
-        "placeIds": [
-          13,
-          26
-        ],
-        "score": 11
-      },
-      {
-        "id": 3,
-        "placeIds": [
-          1,
-          21
-        ],
-        "score": 10
-      },
-      {
-        "id": 15,
-        "placeIds": [
-          4,
-          29
-        ],
-        "score": 10
-      },
-      {
-        "id": 23,
-        "placeIds": [
-          9,
-          27
-        ],
-        "score": 10
-      },
-      {
-        "id": 31,
-        "placeIds": [
-          14,
-          20
-        ],
-        "score": 10
-      },
-      {
-        "id": 2,
-        "placeIds": [
-          1,
-          6
-        ],
-        "score": 9
-      },
-      {
-        "id": 26,
-        "placeIds": [
-          12,
+          18,
           19
         ],
-        "score": 9
+        "score": 8,
+        "hops": 4
       },
       {
-        "id": 28,
         "placeIds": [
-          13,
-          24
+          10,
+          13
         ],
-        "score": 9
+        "score": 9,
+        "hops": 5
       },
       {
-        "id": 10,
-        "placeIds": [
-          3,
-          20
-        ],
-        "score": 8
-      },
-      {
-        "id": 16,
-        "placeIds": [
-          5,
-          7
-        ],
-        "score": 8
-      },
-      {
-        "id": 22,
-        "placeIds": [
-          8,
-          23
-        ],
-        "score": 8
-      },
-      {
-        "id": 8,
-        "placeIds": [
-          2,
-          19
-        ],
-        "score": 7
-      },
-      {
-        "id": 11,
-        "placeIds": [
-          3,
-          25
-        ],
-        "score": 7
-      },
-      {
-        "id": 17,
-        "placeIds": [
-          5,
-          8
-        ],
-        "score": 7
-      },
-      {
-        "id": 24,
-        "placeIds": [
-          11,
-          10
-        ],
-        "score": 7
-      },
-      {
-        "id": 1,
-        "placeIds": [
-          1,
-          4
-        ],
-        "score": 6
-      },
-      {
-        "id": 7,
-        "placeIds": [
-          2,
-          17
-        ],
-        "score": 6
-      },
-      {
-        "id": 19,
-        "placeIds": [
-          7,
-          10
-        ],
-        "score": 6
-      },
-      {
-        "id": 0,
-        "placeIds": [
-          1,
-          3
-        ],
-        "score": 5
-      },
-      {
-        "id": 5,
-        "placeIds": [
-          2,
-          6
-        ],
-        "score": 5
-      },
-      {
-        "id": 33,
-        "placeIds": [
-          15,
-          10
-        ],
-        "score": 5
-      },
-      {
-        "id": 35,
-        "placeIds": [
-          25,
-          21
-        ],
-        "score": 5
-      },
-      {
-        "id": 6,
-        "placeIds": [
-          2,
-          9
-        ],
-        "score": 4
-      },
-      {
-        "id": 13,
-        "placeIds": [
-          4,
-          17
-        ],
-        "score": 4
-      },
-      {
-        "id": 18,
         "placeIds": [
           6,
+          20
+        ],
+        "score": 9,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          11,
           24
         ],
-        "score": 4
+        "score": 8,
+        "hops": 3
       },
       {
-        "id": 21,
         "placeIds": [
           8,
-          18
+          13
         ],
-        "score": 4
-      }
-    ],
-    "highways": [
-      {
-        "id": 18,
-        "placeIds": [
-          1,
-          25
-        ],
-        "score": 12,
-        "isHighway": true
+        "score": 9,
+        "hops": 3
       },
       {
-        "id": 19,
+        "placeIds": [
+          3,
+          25
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          10,
+          29
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          11,
+          17
+        ],
+        "score": 10,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          2,
+          6
+        ],
+        "score": 8,
+        "hops": 3
+      },
+      {
         "placeIds": [
           2,
           23
         ],
-        "score": 12,
-        "isHighway": true
+        "score": 9,
+        "hops": 3
       },
       {
-        "id": 20,
         "placeIds": [
-          4,
-          28
+          21,
+          27
         ],
-        "score": 12,
-        "isHighway": true
+        "score": 9,
+        "hops": 3
       },
       {
-        "id": 21,
-        "placeIds": [
-          5,
-          29
-        ],
-        "score": 12,
-        "isHighway": true
-      },
-      {
-        "id": 22,
         "placeIds": [
           7,
-          22
+          23
         ],
-        "score": 12,
-        "isHighway": true
+        "score": 9,
+        "hops": 3
       },
       {
-        "id": 23,
         "placeIds": [
-          11,
-          20
+          6,
+          27
         ],
-        "score": 12,
-        "isHighway": true
+        "score": 10,
+        "hops": 5
       },
       {
-        "id": 25,
-        "placeIds": [
-          2,
-          21
-        ],
-        "score": 8
-      },
-      {
-        "id": 31,
         "placeIds": [
           5,
-          19
-        ],
-        "score": 8
-      },
-      {
-        "id": 36,
-        "placeIds": [
-          13,
           8
         ],
-        "score": 8
+        "score": 9,
+        "hops": 3
       },
       {
-        "id": 26,
         "placeIds": [
-          2,
-          24
+          12,
+          18
         ],
-        "score": 7
+        "score": 10,
+        "hops": 5
       },
       {
-        "id": 35,
         "placeIds": [
-          13,
-          6
+          6,
+          13
         ],
-        "score": 7
+        "score": 9,
+        "hops": 5
       },
       {
-        "id": 38,
+        "placeIds": [
+          21,
+          26
+        ],
+        "score": 8,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          3,
+          26
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
         "placeIds": [
           19,
           25
         ],
-        "score": 7
+        "score": 9,
+        "hops": 4
       },
       {
-        "id": 29,
-        "placeIds": [
-          4,
-          21
-        ],
-        "score": 6
-      },
-      {
-        "id": 33,
-        "placeIds": [
-          7,
-          10
-        ],
-        "score": 6
-      },
-      {
-        "id": 37,
-        "placeIds": [
-          15,
-          18
-        ],
-        "score": 6
-      },
-      {
-        "id": 24,
-        "placeIds": [
-          2,
-          6
-        ],
-        "score": 5
-      },
-      {
-        "id": 27,
         "placeIds": [
           3,
-          8
+          13
         ],
-        "score": 5
+        "score": 8,
+        "hops": 4
       },
       {
-        "id": 30,
         "placeIds": [
-          4,
+          17,
           24
         ],
-        "score": 5
+        "score": 8,
+        "hops": 2
       },
       {
-        "id": 28,
+        "placeIds": [
+          5,
+          10
+        ],
+        "score": 8,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          8,
+          23
+        ],
+        "score": 8,
+        "hops": 2
+      },
+      {
         "placeIds": [
           4,
-          17
+          25
         ],
-        "score": 4
+        "score": 9,
+        "hops": 4
       },
       {
-        "id": 32,
+        "placeIds": [
+          1,
+          21
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          21,
+          29
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          5,
+          9
+        ],
+        "score": 8,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          22,
+          25
+        ],
+        "score": 8,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          25,
+          28
+        ],
+        "score": 8,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          3,
+          12
+        ],
+        "score": 8,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          11,
+          21
+        ],
+        "score": 9,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          2,
+          28
+        ],
+        "score": 8,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          21,
+          25
+        ],
+        "score": 8,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          17,
+          27
+        ],
+        "score": 9,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          22,
+          26
+        ],
+        "score": 8,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          12,
+          15
+        ],
+        "score": 7,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          3,
+          28
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          18,
+          23
+        ],
+        "score": 8,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          11,
+          15
+        ],
+        "score": 8,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          26,
+          27
+        ],
+        "score": 9,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          18,
+          22
+        ],
+        "score": 8,
+        "hops": 4
+      }
+    ],
+    "highways": [
+      {
         "placeIds": [
           6,
-          8
+          13
         ],
-        "score": 4
+        "score": 19,
+        "hops": 5
       },
       {
-        "id": 34,
         "placeIds": [
           9,
-          24
+          11
         ],
-        "score": 4
+        "score": 20,
+        "hops": 7
+      },
+      {
+        "placeIds": [
+          6,
+          27
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          9,
+          12
+        ],
+        "score": 19,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          14,
+          18
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          10,
+          27
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          13,
+          18
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          10,
+          11
+        ],
+        "score": 19,
+        "hops": 6
+      },
+      {
+        "placeIds": [
+          1,
+          26
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          6,
+          11
+        ],
+        "score": 19,
+        "hops": 6
+      },
+      {
+        "placeIds": [
+          9,
+          13
+        ],
+        "score": 19,
+        "hops": 6
+      },
+      {
+        "placeIds": [
+          7,
+          27
+        ],
+        "score": 19,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          1,
+          25
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          10,
+          13
+        ],
+        "score": 19,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          7,
+          29
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          5,
+          11
+        ],
+        "score": 18,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          11,
+          17
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          18,
+          27
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          5,
+          23
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          1,
+          29
+        ],
+        "score": 20,
+        "hops": 5
       }
     ],
     "hotspots": []
