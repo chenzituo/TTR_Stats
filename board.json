@@ -168,8 +168,8 @@
       "id": 8,
       "name": "Boston",
       "coordinate": {
-        "x": 37.25711353596496,
-        "y": 31.031304719985087
+        "x": 28.0,
+        "y": 25.7
       },
       "label": {
         "offset": {
@@ -1010,21 +1010,6 @@
       "curvature": 10
     },
     {
-      "id": 46,
-      "placeIds": [
-        28,
-        27
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 52,
-          "colour": "purple"
-        }
-      ],
-      "curvature": 18
-    },
-    {
       "id": 57,
       "placeIds": [
         16,
@@ -1361,6 +1346,25 @@
         }
       ],
       "curvature": 37
+    },
+    {
+      "id": 76,
+      "placeIds": [
+        27,
+        28
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 84,
+          "colour": "purple"
+        },
+        {
+          "id": 84,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": 18
     }
   ],
   "routeDecks": {
