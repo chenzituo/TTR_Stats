@@ -1,0 +1,1394 @@
+{
+  "info": {
+    "id": "44174f49-8755-434c-abd1-46fc61b5b98d",
+    "name": "map_v2",
+    "icon": "",
+    "boardSize": "rectangle-large"
+  },
+  "design": {
+    "boardColour": "sky",
+    "tickets": {
+      "colour": "orange",
+      "coverColour": "orange"
+    },
+    "showRoads": true
+  },
+  "dimensions": {
+    "full": {
+      "width": 72.44,
+      "height": 47.04
+    },
+    "play": {
+      "width": 69.44,
+      "height": 44.04
+    },
+    "print": {
+      "width": 8700,
+      "height": 5700
+    }
+  },
+  "rules": {
+    "vehicleAmount": 35
+  },
+  "places": [
+    {
+      "id": 1,
+      "name": "Fairbanks",
+      "coordinate": {
+        "x": 19.96890740929766,
+        "y": 39.992795321961786
+      },
+      "label": {
+        "offset": {
+          "x": 0.4032954646500855,
+          "y": 1.0186080693678008
+        },
+        "dimensions": {
+          "width": 3.0210102876027425,
+          "height": 0.47519164244333906
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Berkeley",
+      "coordinate": {
+        "x": 22.628631428784946,
+        "y": 28.141675989662076
+      },
+      "label": {
+        "offset": {
+          "x": -2.697124589794395,
+          "y": 0.5145040321578414
+        },
+        "dimensions": {
+          "width": 2.761719347635905,
+          "height": 0.5741458535194397
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "Riverside",
+      "coordinate": {
+        "x": 22.628631428784946,
+        "y": 15.57654019748856
+      },
+      "label": {
+        "offset": {
+          "x": -0.40476206156948535,
+          "y": -1.0223122703508487
+        },
+        "dimensions": {
+          "width": 2.8098737080891927,
+          "height": 0.482600044409434
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "Long Beach",
+      "coordinate": {
+        "x": 23.95849343852858,
+        "y": 7.470312149856872
+      },
+      "label": {
+        "offset": {
+          "x": 2.589688501358033,
+          "y": -2.4868995751603507e-14
+        },
+        "dimensions": {
+          "width": 3.4993770027160647,
+          "height": 0.5609166868527731
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "Hilo",
+      "coordinate": {
+        "x": 14.649459370323113,
+        "y": 16.944214757207614
+      },
+      "label": {
+        "offset": {
+          "x": 0.9690252304306757,
+          "y": 1.0319070609544738
+        },
+        "dimensions": {
+          "width": 1.2133787790934245,
+          "height": 0.4746625141302745
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "Fort Worth",
+      "coordinate": {
+        "x": 31.93766549699041,
+        "y": 4.795789250950649
+      },
+      "label": {
+        "offset": {
+          "x": -2.4959560662799767,
+          "y": 0.15703224538972727
+        },
+        "dimensions": {
+          "width": 3.315227228800456,
+          "height": 0.47095836361249294
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "Columbus",
+      "coordinate": {
+        "x": 30.607803487246773,
+        "y": 33.96620981032067
+      },
+      "label": {
+        "offset": {
+          "x": 0.8951135207433651,
+          "y": 1.902213058835244
+        },
+        "dimensions": {
+          "width": 3.0030196221669514,
+          "height": 0.4746625645955404
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 8,
+      "name": "Boston",
+      "coordinate": {
+        "x": 37.25711353596496,
+        "y": 31.031304719985087
+      },
+      "label": {
+        "offset": {
+          "x": -0.13526182957250654,
+          "y": -1.0707076314019304
+        },
+        "dimensions": {
+          "width": 2.1933944606781006,
+          "height": 0.4746625645955404
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 9,
+      "name": "Philadelphia",
+      "coordinate": {
+        "x": 33.8,
+        "y": 18.500000000000004
+      },
+      "label": {
+        "offset": {
+          "x": 1.001585392097006,
+          "y": 1.3785640254903448
+        },
+        "dimensions": {
+          "width": 3.7565520350138346,
+          "height": 0.5889625060558319
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 10,
+      "name": "Washington DC",
+      "coordinate": {
+        "x": 35.927251526221326,
+        "y": 11.504702966584626
+      },
+      "label": {
+        "offset": {
+          "x": 0.21095106768328975,
+          "y": 1.1058442234276509
+        },
+        "dimensions": {
+          "width": 4.4788638083140055,
+          "height": 0.5614458656311035
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 11,
+      "name": "Seoul",
+      "coordinate": {
+        "x": 2.6807012826303707,
+        "y": 35.45223169782397
+      },
+      "label": {
+        "offset": {
+          "x": -1.7184163840611775,
+          "y": 0
+        },
+        "dimensions": {
+          "width": 1.7568327681223552,
+          "height": 0.4741333858172099
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 12,
+      "name": "Daegu",
+      "coordinate": {
+        "x": 13.3,
+        "y": 28.2
+      },
+      "label": {
+        "offset": {
+          "x": 0,
+          "y": -1.1204583434263853
+        },
+        "dimensions": {
+          "width": 1.8637238534291587,
+          "height": 0.5609166868527731
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 13,
+      "name": "Goesan",
+      "coordinate": {
+        "x": 6.670287311861285,
+        "y": 29.581137956806028
+      },
+      "label": {
+        "offset": {
+          "x": -1.9893401895887806,
+          "y": -0.2513121096686177
+        },
+        "dimensions": {
+          "width": 2.311927680969238,
+          "height": 0.47519164244333906
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 14,
+      "name": "Busan",
+      "coordinate": {
+        "x": 6.670287311861285,
+        "y": 22.479362508708522
+      },
+      "label": {
+        "offset": {
+          "x": -1.7837590284076494,
+          "y": 0.22534116935636916
+        },
+        "dimensions": {
+          "width": 1.9007653586069744,
+          "height": 0.4746625645955404
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 15,
+      "name": "Tokyo",
+      "coordinate": {
+        "x": 8.000149321604924,
+        "y": 14.214365911755461
+      },
+      "label": {
+        "offset": {
+          "x": 0,
+          "y": -1.1265437479813887
+        },
+        "dimensions": {
+          "width": 1.9187576389312744,
+          "height": 0.5730874959627787
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 16,
+      "name": "Dili",
+      "coordinate": {
+        "x": 13.319597360579476,
+        "y": 3.4617931200727816
+      },
+      "label": {
+        "offset": {
+          "x": 0,
+          "y": -1.0765375141302744
+        },
+        "dimensions": {
+          "width": 0.9456201712290446,
+          "height": 0.4730750282605489
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 17,
+      "name": "Istanbul",
+      "coordinate": {
+        "x": 46.56614760417043,
+        "y": 12.857236075088222
+      },
+      "label": {
+        "offset": {
+          "x": -2.591759749566087,
+          "y": 0.32741539824431953
+        },
+        "dimensions": {
+          "width": 2.524652099609375,
+          "height": 0.47148749192555744
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 18,
+      "name": "Izmir",
+      "coordinate": {
+        "x": 47.89600961391407,
+        "y": 4.795789250950649
+      },
+      "label": {
+        "offset": {
+          "x": 0,
+          "y": -1.0765375141302744
+        },
+        "dimensions": {
+          "width": 1.42081161181132,
+          "height": 0.4730750282605489
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 19,
+      "name": "Moscow",
+      "coordinate": {
+        "x": 43.906423584683154,
+        "y": 39.992795321961786
+      },
+      "label": {
+        "offset": {
+          "x": -0.46933422917829404,
+          "y": 0.9973860063692257
+        },
+        "dimensions": {
+          "width": 2.4304617087046307,
+          "height": 0.4746625645955404
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 20,
+      "name": "Tbilisi",
+      "coordinate": {
+        "x": 49.22587162365771,
+        "y": 31.031304719985087
+      },
+      "label": {
+        "offset": {
+          "x": -1.7437540506600087,
+          "y": -0.33263887532335445
+        },
+        "dimensions": {
+          "width": 1.8372655200958252,
+          "height": 0.47519164244333906
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 21,
+      "name": "Yerevan",
+      "coordinate": {
+        "x": 43.906423584683154,
+        "y": 25.29252842030758
+      },
+      "label": {
+        "offset": {
+          "x": -2.141943638949961,
+          "y": 0.13475967132060518
+        },
+        "dimensions": {
+          "width": 2.6072023741404213,
+          "height": 0.47625005046526586
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 22,
+      "name": "Almaty",
+      "coordinate": {
+        "x": 51.88559564314498,
+        "y": 23.88171858113442
+      },
+      "label": {
+        "offset": {
+          "x": 1.93168508568926,
+          "y": 0.49597243197819907
+        },
+        "dimensions": {
+          "width": 2.2701238695780437,
+          "height": 0.5741458535194397
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 23,
+      "name": "Tashkent",
+      "coordinate": {
+        "x": 53.215457652888624,
+        "y": 15.57654019748856
+      },
+      "label": {
+        "offset": {
+          "x": -0.4690852165468371,
+          "y": 0.9968568275908982
+        },
+        "dimensions": {
+          "width": 2.9188815085093185,
+          "height": 0.47360420703887945
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 24,
+      "name": "Mandalay",
+      "coordinate": {
+        "x": 58.534905691863166,
+        "y": 16.944214757207614
+      },
+      "label": {
+        "offset": {
+          "x": -2.3324515636045504,
+          "y": 0.4449389319382142
+        },
+        "dimensions": {
+          "width": 3.014660545984904,
+          "height": 0.5820833333333334
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 25,
+      "name": "Yangon",
+      "coordinate": {
+        "x": 59.864767701606816,
+        "y": 3.4617931200727816
+      },
+      "label": {
+        "offset": {
+          "x": 0,
+          "y": -1.1217812903722124
+        },
+        "dimensions": {
+          "width": 2.2897023741404214,
+          "height": 0.5635625807444254
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 26,
+      "name": "Mawlamyine",
+      "coordinate": {
+        "x": 65.18421574058137,
+        "y": 10.156326187861284
+      },
+      "label": {
+        "offset": {
+          "x": -2.5769691126877845,
+          "y": -0.4915831490473277
+        },
+        "dimensions": {
+          "width": 3.7491437339782716,
+          "height": 0.5746750322977702
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 27,
+      "name": "Beijing",
+      "coordinate": {
+        "x": 62.524491721094094,
+        "y": 39.992795321961786
+      },
+      "label": {
+        "offset": {
+          "x": 0.1407434698121719,
+          "y": 1.1140992819197137
+        },
+        "dimensions": {
+          "width": 2.0759193960825604,
+          "height": 0.5614458656311035
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 28,
+      "name": "Shanghai",
+      "coordinate": {
+        "x": 61.19462971135045,
+        "y": 28.141675989662076
+      },
+      "label": {
+        "offset": {
+          "x": 0,
+          "y": 1.12072293281555
+        },
+        "dimensions": {
+          "width": 2.7109193960825606,
+          "height": 0.5614458656311035
+        },
+        "isValidPlacement": true
+      }
+    }
+  ],
+  "regions": [],
+  "roads": [
+    {
+      "id": 39,
+      "placeIds": [
+        19,
+        27
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 45,
+          "colour": "grey"
+        }
+      ],
+      "curvature": -16
+    },
+    {
+      "id": 66,
+      "placeIds": [
+        11,
+        1
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 78,
+          "colour": "purple"
+        }
+      ],
+      "curvature": -35
+    },
+    {
+      "id": 14,
+      "placeIds": [
+        3,
+        9
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 15,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 14
+    },
+    {
+      "id": 51,
+      "placeIds": [
+        6,
+        18
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 59,
+          "colour": "orange"
+        }
+      ],
+      "curvature": 13
+    },
+    {
+      "id": 52,
+      "placeIds": [
+        1,
+        12
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 60,
+          "colour": "black"
+        }
+      ],
+      "curvature": 65
+    },
+    {
+      "id": 40,
+      "placeIds": [
+        27,
+        20
+      ],
+      "spaceAmount": 6,
+      "lanes": [
+        {
+          "id": 46,
+          "colour": "green"
+        }
+      ],
+      "curvature": 13
+    },
+    {
+      "id": 10,
+      "placeIds": [
+        17,
+        21
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 11,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": 10
+    },
+    {
+      "id": 13,
+      "placeIds": [
+        17,
+        22
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 14,
+          "colour": "white"
+        }
+      ],
+      "curvature": 27
+    },
+    {
+      "id": 28,
+      "placeIds": [
+        7,
+        1
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 30,
+          "colour": "white"
+        },
+        {
+          "id": 31,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 22,
+      "placeIds": [
+        3,
+        10
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 24,
+          "colour": "green"
+        }
+      ],
+      "curvature": 10
+    },
+    {
+      "id": 23,
+      "placeIds": [
+        18,
+        10
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 25,
+          "colour": "red"
+        }
+      ],
+      "curvature": -5
+    },
+    {
+      "id": 30,
+      "placeIds": [
+        19,
+        7
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 33,
+          "colour": "blue"
+        }
+      ],
+      "curvature": -8
+    },
+    {
+      "id": 62,
+      "placeIds": [
+        5,
+        4
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 74,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 18
+    },
+    {
+      "id": 26,
+      "placeIds": [
+        2,
+        1
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 28,
+          "colour": "grey"
+        }
+      ],
+      "curvature": -19
+    },
+    {
+      "id": 61,
+      "placeIds": [
+        16,
+        5
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 73,
+          "colour": "white"
+        }
+      ],
+      "curvature": -3
+    },
+    {
+      "id": 43,
+      "placeIds": [
+        25,
+        23
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 49,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": -1,
+      "isTunnel": true
+    },
+    {
+      "id": 15,
+      "placeIds": [
+        9,
+        10
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 16,
+          "colour": "orange"
+        }
+      ],
+      "curvature": -11
+    },
+    {
+      "id": 24,
+      "placeIds": [
+        10,
+        17
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 26,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 8
+    },
+    {
+      "id": 3,
+      "placeIds": [
+        20,
+        8
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 3,
+          "colour": "red"
+        }
+      ],
+      "curvature": 16
+    },
+    {
+      "id": 16,
+      "placeIds": [
+        22,
+        24
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 17,
+          "colour": "grey",
+          "wildcardAmount": 1
+        }
+      ],
+      "curvature": -21
+    },
+    {
+      "id": 49,
+      "placeIds": [
+        24,
+        26
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 55,
+          "colour": "black"
+        },
+        {
+          "id": 56,
+          "colour": "green"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 50,
+      "placeIds": [
+        18,
+        25
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 57,
+          "colour": "purple"
+        },
+        {
+          "id": 58,
+          "colour": "white"
+        }
+      ],
+      "curvature": -20
+    },
+    {
+      "id": 60,
+      "placeIds": [
+        4,
+        16
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 71,
+          "colour": "grey"
+        },
+        {
+          "id": 72,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 54,
+      "placeIds": [
+        5,
+        14
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 63,
+          "colour": "yellow"
+        },
+        {
+          "id": 64,
+          "colour": "red"
+        }
+      ],
+      "curvature": 39
+    },
+    {
+      "id": 27,
+      "placeIds": [
+        7,
+        2
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 29,
+          "colour": "green"
+        }
+      ],
+      "curvature": -12
+    },
+    {
+      "id": 59,
+      "placeIds": [
+        4,
+        6
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 70,
+          "colour": "black"
+        }
+      ],
+      "curvature": 59
+    },
+    {
+      "id": 41,
+      "placeIds": [
+        20,
+        19
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 47,
+          "colour": "grey",
+          "wildcardAmount": 1
+        }
+      ],
+      "curvature": -13
+    },
+    {
+      "id": 42,
+      "placeIds": [
+        24,
+        28
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 48,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 10
+    },
+    {
+      "id": 46,
+      "placeIds": [
+        28,
+        27
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 52,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 18
+    },
+    {
+      "id": 57,
+      "placeIds": [
+        16,
+        15
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 67,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": -11
+    },
+    {
+      "id": 70,
+      "placeIds": [
+        14,
+        15
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 80,
+          "colour": "white"
+        }
+      ],
+      "curvature": 0,
+      "routeType": "ocean"
+    },
+    {
+      "id": 8,
+      "placeIds": [
+        9,
+        21
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 9,
+          "colour": "green"
+        }
+      ],
+      "curvature": 18
+    },
+    {
+      "id": 17,
+      "placeIds": [
+        23,
+        22
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 18,
+          "colour": "grey",
+          "wildcardAmount": 1
+        }
+      ],
+      "curvature": 25
+    },
+    {
+      "id": 4,
+      "placeIds": [
+        21,
+        20
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 4,
+          "colour": "black"
+        }
+      ],
+      "curvature": 14
+    },
+    {
+      "id": 2,
+      "placeIds": [
+        8,
+        9
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 2,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 17
+    },
+    {
+      "id": 18,
+      "placeIds": [
+        17,
+        23
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 19,
+          "colour": "orange"
+        },
+        {
+          "id": 20,
+          "colour": "black"
+        }
+      ],
+      "curvature": 57,
+      "isTunnel": true
+    },
+    {
+      "id": 6,
+      "placeIds": [
+        8,
+        7
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 1,
+          "colour": "red"
+        },
+        {
+          "id": 2,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 33,
+      "placeIds": [
+        10,
+        6
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 36,
+          "colour": "yellow"
+        },
+        {
+          "id": 37,
+          "colour": "white"
+        }
+      ],
+      "curvature": -13
+    },
+    {
+      "id": 37,
+      "placeIds": [
+        5,
+        3
+      ],
+      "spaceAmount": 8,
+      "lanes": [
+        {
+          "id": 42,
+          "colour": "grey"
+        },
+        {
+          "id": 43,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 35,
+      "placeIds": [
+        12,
+        2
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 39,
+          "colour": "blue"
+        },
+        {
+          "id": 40,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 13
+    },
+    {
+      "id": 53,
+      "placeIds": [
+        13,
+        12
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 61,
+          "colour": "red"
+        },
+        {
+          "id": 62,
+          "colour": "green"
+        }
+      ],
+      "curvature": -6
+    },
+    {
+      "id": 65,
+      "placeIds": [
+        13,
+        11
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 76,
+          "colour": "orange"
+        },
+        {
+          "id": 77,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 38,
+      "placeIds": [
+        3,
+        4
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 44,
+          "colour": "red"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 47,
+      "placeIds": [
+        26,
+        25
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 53,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 64,
+      "placeIds": [
+        13,
+        14
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 75,
+          "colour": "black"
+        }
+      ],
+      "curvature": -1
+    },
+    {
+      "id": 71,
+      "placeIds": [
+        14,
+        28
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 81,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 0,
+      "wrapAround": true
+    },
+    {
+      "id": 72,
+      "placeIds": [
+        15,
+        26
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 82,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 8,
+      "wrapAround": true
+    },
+    {
+      "id": 73,
+      "placeIds": [
+        2,
+        8
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 83,
+          "colour": "green"
+        },
+        {
+          "id": 83,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 0,
+      "routeType": "train"
+    },
+    {
+      "id": 75,
+      "placeIds": [
+        8,
+        12
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 1,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 37
+    }
+  ],
+  "routeDecks": {
+    "standard": [],
+    "highways": [],
+    "hotspots": []
+  },
+  "placements": {
+    "rules": {
+      "coordinate": {
+        "x": 5.3,
+        "y": 3.0727272727272728
+      },
+      "dimensions": {
+        "width": 10,
+        "height": 5.545454545454546
+      },
+      "includeRoadPoints": false
+    },
+    "attribution": {
+      "x": 65.17024574669188,
+      "y": 0.8
+    }
+  },
+  "boundingBox": {
+    "left": -0.015774014889814225,
+    "bottom": 1.4000011673983153,
+    "right": 52.20016981328689,
+    "top": 32.60000000000055
+  }
+}
