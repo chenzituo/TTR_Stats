@@ -14,6 +14,10 @@
     "showRoads": true
   },
   "dimensions": {
+    "print": {
+      "width": 8700,
+      "height": 5700
+    },
     "full": {
       "width": 72.44,
       "height": 47.04
@@ -21,10 +25,6 @@
     "play": {
       "width": 69.44,
       "height": 44.04
-    },
-    "print": {
-      "width": 8700,
-      "height": 5700
     }
   },
   "rules": {
@@ -35,13 +35,13 @@
       "id": 1,
       "name": "Fairbanks",
       "coordinate": {
-        "x": 19.96890740929766,
-        "y": 39.992795321961786
+        "x": 26.59012229892321,
+        "y": 41.34091826560194
       },
       "label": {
         "offset": {
-          "x": 0.4032954646500855,
-          "y": 1.0186080693678008
+          "x": 0,
+          "y": 1.0775958212216707
         },
         "dimensions": {
           "width": 3.0210102876027425,
@@ -54,13 +54,13 @@
       "id": 2,
       "name": "Berkeley",
       "coordinate": {
-        "x": 22.628631428784946,
-        "y": 28.141675989662076
+        "x": 26.500738697534857,
+        "y": 24.835825949274092
       },
       "label": {
         "offset": {
-          "x": -2.697124589794395,
-          "y": 0.5145040321578414
+          "x": -2.2059809644300508,
+          "y": -0.4208133748649914
         },
         "dimensions": {
           "width": 2.761719347635905,
@@ -73,13 +73,13 @@
       "id": 3,
       "name": "Riverside",
       "coordinate": {
-        "x": 22.628631428784946,
-        "y": 15.57654019748856
+        "x": 31.383081120011624,
+        "y": 16.78783253812312
       },
       "label": {
         "offset": {
-          "x": -0.40476206156948535,
-          "y": -1.0223122703508487
+          "x": 0,
+          "y": 1.581300022204715
         },
         "dimensions": {
           "width": 2.8098737080891927,
@@ -92,13 +92,13 @@
       "id": 4,
       "name": "Long Beach",
       "coordinate": {
-        "x": 23.95849343852858,
-        "y": 7.470312149856872
+        "x": 26.49989389197902,
+        "y": 17.69710395590826
       },
       "label": {
         "offset": {
-          "x": 2.589688501358033,
-          "y": -2.4868995751603507e-14
+          "x": 0.11748186940678806,
+          "y": -1.867320841627338
         },
         "dimensions": {
           "width": 3.4993770027160647,
@@ -111,13 +111,13 @@
       "id": 5,
       "name": "Hilo",
       "coordinate": {
-        "x": 14.649459370323113,
-        "y": 16.944214757207614
+        "x": 24.078481512822382,
+        "y": 7.7733050493554465
       },
       "label": {
         "offset": {
-          "x": 0.9690252304306757,
-          "y": 1.0319070609544738
+          "x": 0,
+          "y": -1.0773312570651372
         },
         "dimensions": {
           "width": 1.2133787790934245,
@@ -130,13 +130,13 @@
       "id": 6,
       "name": "Fort Worth",
       "coordinate": {
-        "x": 31.93766549699041,
-        "y": 4.795789250950649
+        "x": 36.358821570521535,
+        "y": 8.423086293439386
       },
       "label": {
         "offset": {
-          "x": -2.4959560662799767,
-          "y": 0.15703224538972727
+          "x": 2.495956066279973,
+          "y": 0.1570322453897095
         },
         "dimensions": {
           "width": 3.315227228800456,
@@ -149,13 +149,13 @@
       "id": 7,
       "name": "Columbus",
       "coordinate": {
-        "x": 30.607803487246773,
-        "y": 33.96620981032067
+        "x": 34.56183460324451,
+        "y": 32.22474217728566
       },
       "label": {
         "offset": {
-          "x": 0.8951135207433651,
-          "y": 1.902213058835244
+          "x": -2.3398522629632197,
+          "y": -0.14721102654704055
         },
         "dimensions": {
           "width": 3.0030196221669514,
@@ -168,13 +168,13 @@
       "id": 8,
       "name": "Boston",
       "coordinate": {
-        "x": 28.0,
-        "y": 25.7
+        "x": 44.559173194394944,
+        "y": 26.49546338160469
       },
       "label": {
         "offset": {
-          "x": -0.13526182957250654,
-          "y": -1.0707076314019304
+          "x": -0.5351470627995099,
+          "y": -0.9734288935346171
         },
         "dimensions": {
           "width": 2.1933944606781006,
@@ -187,13 +187,13 @@
       "id": 9,
       "name": "Philadelphia",
       "coordinate": {
-        "x": 33.8,
-        "y": 18.500000000000004
+        "x": 41.59384293600776,
+        "y": 18.332304968577436
       },
       "label": {
         "offset": {
-          "x": 1.001585392097006,
-          "y": 1.3785640254903448
+          "x": 2.7182760175069234,
+          "y": -2.1316282072803006e-14
         },
         "dimensions": {
           "width": 3.7565520350138346,
@@ -206,13 +206,13 @@
       "id": 10,
       "name": "Washington DC",
       "coordinate": {
-        "x": 35.927251526221326,
-        "y": 11.504702966584626
+        "x": 39.31886730185929,
+        "y": 13.862865282687435
       },
       "label": {
         "offset": {
-          "x": 0.21095106768328975,
-          "y": 1.1058442234276509
+          "x": -1.9039607404181638,
+          "y": -1.0467112746372838
         },
         "dimensions": {
           "width": 4.4788638083140055,
@@ -225,13 +225,13 @@
       "id": 11,
       "name": "Seoul",
       "coordinate": {
-        "x": 2.6807012826303707,
-        "y": 35.45223169782397
+        "x": 13.53743429632532,
+        "y": 35.847038255730205
       },
       "label": {
         "offset": {
-          "x": -1.7184163840611775,
-          "y": 0
+          "x": 0,
+          "y": 1.077066692908609
         },
         "dimensions": {
           "width": 1.7568327681223552,
@@ -244,13 +244,13 @@
       "id": 12,
       "name": "Daegu",
       "coordinate": {
-        "x": 13.3,
-        "y": 28.2
+        "x": 16.893268198192185,
+        "y": 27.758469932738237
       },
       "label": {
         "offset": {
-          "x": 0,
-          "y": -1.1204583434263853
+          "x": 0.1407100443990963,
+          "y": -1.1138346925305456
         },
         "dimensions": {
           "width": 1.8637238534291587,
@@ -263,13 +263,13 @@
       "id": 13,
       "name": "Goesan",
       "coordinate": {
-        "x": 6.670287311861285,
-        "y": 29.581137956806028
+        "x": 15.34562463415427,
+        "y": 31.93757031719288
       },
       "label": {
         "offset": {
-          "x": -1.9893401895887806,
-          "y": -0.2513121096686177
+          "x": 1.9943062923643673,
+          "y": 0.12547111678594547
         },
         "dimensions": {
           "width": 2.311927680969238,
@@ -282,13 +282,13 @@
       "id": 14,
       "name": "Busan",
       "coordinate": {
-        "x": 6.670287311861285,
-        "y": 22.479362508708522
+        "x": 17.67173964954647,
+        "y": 21.515917447558135
       },
       "label": {
         "offset": {
-          "x": -1.7837590284076494,
-          "y": 0.22534116935636916
+          "x": 0,
+          "y": -1.07733128229777
         },
         "dimensions": {
           "width": 1.9007653586069744,
@@ -301,13 +301,13 @@
       "id": 15,
       "name": "Tokyo",
       "coordinate": {
-        "x": 8.000149321604924,
-        "y": 14.214365911755461
+        "x": 17.639410967526864,
+        "y": 12.834414580216466
       },
       "label": {
         "offset": {
-          "x": 0,
-          "y": -1.1265437479813887
+          "x": -0.07077184096248601,
+          "y": -1.1248861998611375
         },
         "dimensions": {
           "width": 1.9187576389312744,
@@ -317,35 +317,16 @@
       }
     },
     {
-      "id": 16,
-      "name": "Dili",
+      "id": 17,
+      "name": "Istanbul",
       "coordinate": {
-        "x": 13.319597360579476,
-        "y": 3.4617931200727816
+        "x": 47.36030832108551,
+        "y": 11.427294603057742
       },
       "label": {
         "offset": {
           "x": 0,
-          "y": -1.0765375141302744
-        },
-        "dimensions": {
-          "width": 0.9456201712290446,
-          "height": 0.4730750282605489
-        },
-        "isValidPlacement": true
-      }
-    },
-    {
-      "id": 17,
-      "name": "Istanbul",
-      "coordinate": {
-        "x": 46.56614760417043,
-        "y": 12.857236075088222
-      },
-      "label": {
-        "offset": {
-          "x": -2.591759749566087,
-          "y": 0.32741539824431953
+          "y": 1.0757437459627788
         },
         "dimensions": {
           "width": 2.524652099609375,
@@ -358,13 +339,13 @@
       "id": 18,
       "name": "Izmir",
       "coordinate": {
-        "x": 47.89600961391407,
-        "y": 4.795789250950649
+        "x": 46.604394644952386,
+        "y": 6.50184664992465
       },
       "label": {
         "offset": {
-          "x": 0,
-          "y": -1.0765375141302744
+          "x": -0.40287645123068927,
+          "y": -1.0175497622764063
         },
         "dimensions": {
           "width": 1.42081161181132,
@@ -377,13 +358,13 @@
       "id": 19,
       "name": "Moscow",
       "coordinate": {
-        "x": 43.906423584683154,
-        "y": 39.992795321961786
+        "x": 52.86074606708411,
+        "y": 39.436370255520316
       },
       "label": {
         "offset": {
-          "x": -0.46933422917829404,
-          "y": 0.9973860063692257
+          "x": 0,
+          "y": 1.07733128229777
         },
         "dimensions": {
           "width": 2.4304617087046307,
@@ -396,13 +377,13 @@
       "id": 20,
       "name": "Tbilisi",
       "coordinate": {
-        "x": 49.22587162365771,
-        "y": 31.031304719985087
+        "x": 55.94081065346758,
+        "y": 25.271760752917185
       },
       "label": {
         "offset": {
-          "x": -1.7437540506600087,
-          "y": -0.33263887532335445
+          "x": 0,
+          "y": -1.0775958212216707
         },
         "dimensions": {
           "width": 1.8372655200958252,
@@ -415,13 +396,13 @@
       "id": 21,
       "name": "Yerevan",
       "coordinate": {
-        "x": 43.906423584683154,
-        "y": 25.29252842030758
+        "x": 56.18085732905186,
+        "y": 19.491134797411185
       },
       "label": {
         "offset": {
-          "x": -2.141943638949961,
-          "y": 0.13475967132060518
+          "x": 0.1353621026241143,
+          "y": 1.071501374336794
         },
         "dimensions": {
           "width": 2.6072023741404213,
@@ -434,13 +415,13 @@
       "id": 22,
       "name": "Almaty",
       "coordinate": {
-        "x": 51.88559564314498,
-        "y": 23.88171858113442
+        "x": 64.848210819291,
+        "y": 31.513891456154408
       },
       "label": {
         "offset": {
-          "x": 1.93168508568926,
-          "y": 0.49597243197819907
+          "x": 0.07080513406923217,
+          "y": 1.1254153786394703
         },
         "dimensions": {
           "width": 2.2701238695780437,
@@ -453,13 +434,13 @@
       "id": 23,
       "name": "Tashkent",
       "coordinate": {
-        "x": 53.215457652888624,
-        "y": 15.57654019748856
+        "x": 65.03331611649836,
+        "y": 26.370155891862787
       },
       "label": {
         "offset": {
-          "x": -0.4690852165468371,
-          "y": 0.9968568275908982
+          "x": 2.299440754254661,
+          "y": -1.7763568394002505e-14
         },
         "dimensions": {
           "width": 2.9188815085093185,
@@ -472,13 +453,13 @@
       "id": 24,
       "name": "Mandalay",
       "coordinate": {
-        "x": 58.534905691863166,
-        "y": 16.944214757207614
+        "x": 63.34868483691894,
+        "y": 15.003310741829747
       },
       "label": {
         "offset": {
-          "x": -2.3324515636045504,
-          "y": 0.4449389319382142
+          "x": 2.347330272992444,
+          "y": -1.9539925233402755e-14
         },
         "dimensions": {
           "width": 3.014660545984904,
@@ -491,13 +472,13 @@
       "id": 25,
       "name": "Yangon",
       "coordinate": {
-        "x": 59.864767701606816,
-        "y": 3.4617931200727816
+        "x": 62.756587743629666,
+        "y": 8.997640584664236
       },
       "label": {
         "offset": {
-          "x": 0,
-          "y": -1.1217812903722124
+          "x": 0.49025081527772585,
+          "y": 1.0418360144436694
         },
         "dimensions": {
           "width": 2.2897023741404214,
@@ -510,13 +491,13 @@
       "id": 26,
       "name": "Mawlamyine",
       "coordinate": {
-        "x": 65.18421574058137,
-        "y": 10.156326187861284
+        "x": 66.4891845611237,
+        "y": 7.194524006093367
       },
       "label": {
         "offset": {
-          "x": -2.5769691126877845,
-          "y": -0.4915831490473277
+          "x": 0.7911141475615153,
+          "y": -1.9981262501832697
         },
         "dimensions": {
           "width": 3.7491437339782716,
@@ -529,13 +510,13 @@
       "id": 27,
       "name": "Beijing",
       "coordinate": {
-        "x": 62.524491721094094,
-        "y": 39.992795321961786
+        "x": 2.0059748206813097,
+        "y": 35.746031510031685
       },
       "label": {
         "offset": {
-          "x": 0.1407434698121719,
-          "y": 1.1140992819197137
+          "x": -4.440892098500626e-16,
+          "y": 1.1207229328155535
         },
         "dimensions": {
           "width": 2.0759193960825604,
@@ -548,17 +529,36 @@
       "id": 28,
       "name": "Shanghai",
       "coordinate": {
-        "x": 61.19462971135045,
-        "y": 28.141675989662076
+        "x": 7.345811111042295,
+        "y": 25.581331521637352
       },
       "label": {
         "offset": {
-          "x": 0,
-          "y": 1.12072293281555
+          "x": -2.1954596980412804,
+          "y": -1.0658141036401503e-14
         },
         "dimensions": {
           "width": 2.7109193960825606,
           "height": 0.5614458656311035
+        },
+        "isValidPlacement": true
+      }
+    },
+    {
+      "id": 29,
+      "name": "Dili",
+      "coordinate": {
+        "x": 6.494659920488168,
+        "y": 2.1968085670455757
+      },
+      "label": {
+        "offset": {
+          "x": 0,
+          "y": -1.0765375141302744
+        },
+        "dimensions": {
+          "width": 0.9456201712290446,
+          "height": 0.4730750282605489
         },
         "isValidPlacement": true
       }
@@ -567,127 +567,151 @@
   "regions": [],
   "roads": [
     {
-      "id": 39,
+      "id": 70,
       "placeIds": [
-        19,
-        27
+        18,
+        26
       ],
-      "spaceAmount": 3,
+      "spaceAmount": 7,
       "lanes": [
         {
-          "id": 45,
+          "id": 82,
           "colour": "grey"
+        }
+      ],
+      "curvature": 40
+    },
+    {
+      "id": 47,
+      "placeIds": [
+        28,
+        29
+      ],
+      "spaceAmount": 8,
+      "lanes": [
+        {
+          "id": 55,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 24
+    },
+    {
+      "id": 45,
+      "placeIds": [
+        19,
+        7
+      ],
+      "spaceAmount": 6,
+      "lanes": [
+        {
+          "id": 53,
+          "colour": "grey"
+        }
+      ],
+      "curvature": -6
+    },
+    {
+      "id": 52,
+      "placeIds": [
+        25,
+        17
+      ],
+      "spaceAmount": 5,
+      "lanes": [
+        {
+          "id": 61,
+          "colour": "grey"
+        },
+        {
+          "id": 62,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 0,
+      "isTunnel": true
+    },
+    {
+      "id": 21,
+      "placeIds": [
+        1,
+        2
+      ],
+      "spaceAmount": 5,
+      "lanes": [
+        {
+          "id": 27,
+          "colour": "orange"
         }
       ],
       "curvature": -16
     },
     {
-      "id": 66,
+      "id": 43,
       "placeIds": [
-        11,
-        1
+        19,
+        8
       ],
-      "spaceAmount": 4,
+      "spaceAmount": 5,
       "lanes": [
         {
-          "id": 78,
-          "colour": "purple"
+          "id": 51,
+          "colour": "red"
         }
       ],
-      "curvature": -35
+      "curvature": -15
     },
     {
-      "id": 14,
+      "id": 35,
       "placeIds": [
-        3,
-        9
+        28,
+        15
       ],
-      "spaceAmount": 2,
+      "spaceAmount": 5,
       "lanes": [
         {
-          "id": 15,
-          "colour": "blue"
+          "id": 42,
+          "colour": "green"
         }
       ],
-      "curvature": 14
+      "curvature": 18
     },
     {
-      "id": 51,
+      "id": 36,
       "placeIds": [
-        6,
-        18
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 59,
-          "colour": "orange"
-        }
-      ],
-      "curvature": 13
-    },
-    {
-      "id": 52,
-      "placeIds": [
-        1,
-        12
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 60,
-          "colour": "black"
-        }
-      ],
-      "curvature": 65
-    },
-    {
-      "id": 40,
-      "placeIds": [
-        27,
-        20
+        29,
+        5
       ],
       "spaceAmount": 6,
       "lanes": [
         {
-          "id": 46,
-          "colour": "green"
+          "id": 43,
+          "colour": "purple"
+        },
+        {
+          "id": 44,
+          "colour": "blue"
         }
       ],
-      "curvature": 13
+      "curvature": -16
     },
     {
-      "id": 10,
+      "id": 30,
       "placeIds": [
-        17,
-        21
+        5,
+        6
       ],
       "spaceAmount": 4,
       "lanes": [
         {
-          "id": 11,
-          "colour": "yellow"
-        }
-      ],
-      "curvature": 10
-    },
-    {
-      "id": 13,
-      "placeIds": [
-        17,
-        22
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 14,
+          "id": 37,
           "colour": "white"
         }
       ],
-      "curvature": 27
+      "curvature": 7
     },
     {
-      "id": 28,
+      "id": 46,
       "placeIds": [
         7,
         1
@@ -695,148 +719,224 @@
       "spaceAmount": 4,
       "lanes": [
         {
-          "id": 30,
-          "colour": "white"
-        },
+          "id": 54,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 12
+    },
+    {
+      "id": 62,
+      "placeIds": [
+        20,
+        19
+      ],
+      "spaceAmount": 4,
+      "lanes": [
         {
-          "id": 31,
-          "colour": "yellow"
+          "id": 76,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 9
+    },
+    {
+      "id": 60,
+      "placeIds": [
+        19,
+        22
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 73,
+          "colour": "green"
         }
       ],
       "curvature": 0
     },
     {
-      "id": 22,
+      "id": 51,
       "placeIds": [
-        3,
-        10
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 24,
-          "colour": "green"
-        }
-      ],
-      "curvature": 10
-    },
-    {
-      "id": 23,
-      "placeIds": [
-        18,
-        10
+        1,
+        11
       ],
       "spaceAmount": 4,
       "lanes": [
         {
-          "id": 25,
+          "id": 60,
+          "colour": "black"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 5,
+      "placeIds": [
+        9,
+        3
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 6,
           "colour": "red"
-        }
-      ],
-      "curvature": -5
-    },
-    {
-      "id": 30,
-      "placeIds": [
-        19,
-        7
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 33,
-          "colour": "blue"
-        }
-      ],
-      "curvature": -8
-    },
-    {
-      "id": 62,
-      "placeIds": [
-        5,
-        4
-      ],
-      "spaceAmount": 4,
-      "lanes": [
-        {
-          "id": 74,
-          "colour": "purple"
         }
       ],
       "curvature": 18
     },
     {
-      "id": 26,
+      "id": 10,
       "placeIds": [
-        2,
-        1
+        5,
+        3
       ],
-      "spaceAmount": 2,
+      "spaceAmount": 3,
       "lanes": [
         {
-          "id": 28,
+          "id": 13,
+          "colour": "orange"
+        },
+        {
+          "id": 14,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": -8
+    },
+    {
+      "id": 12,
+      "placeIds": [
+        15,
+        4
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 16,
           "colour": "grey"
+        },
+        {
+          "id": 17,
+          "colour": "grey"
+        }
+      ],
+      "curvature": -15
+    },
+    {
+      "id": 9,
+      "placeIds": [
+        14,
+        4
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 11,
+          "colour": "purple"
+        },
+        {
+          "id": 12,
+          "colour": "white"
+        }
+      ],
+      "curvature": -42
+    },
+    {
+      "id": 50,
+      "placeIds": [
+        11,
+        27
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 58,
+          "colour": "blue"
+        },
+        {
+          "id": 59,
+          "colour": "red"
         }
       ],
       "curvature": -19
     },
     {
-      "id": 61,
+      "id": 42,
       "placeIds": [
-        16,
-        5
+        8,
+        20
       ],
-      "spaceAmount": 2,
+      "spaceAmount": 3,
       "lanes": [
         {
-          "id": 73,
-          "colour": "white"
-        }
-      ],
-      "curvature": -3
-    },
-    {
-      "id": 43,
-      "placeIds": [
-        25,
-        23
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 49,
+          "id": 50,
           "colour": "yellow"
         }
       ],
-      "curvature": -1,
+      "curvature": -15.556856690294055
+    },
+    {
+      "id": 53,
+      "placeIds": [
+        17,
+        21
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 64,
+          "colour": "black"
+        }
+      ],
+      "curvature": -7,
       "isTunnel": true
     },
     {
-      "id": 15,
+      "id": 61,
       "placeIds": [
-        9,
-        10
+        22,
+        20
       ],
-      "spaceAmount": 4,
+      "spaceAmount": 3,
       "lanes": [
         {
-          "id": 16,
-          "colour": "orange"
+          "id": 74,
+          "colour": "blue"
+        },
+        {
+          "id": 75,
+          "colour": "white"
         }
       ],
-      "curvature": -11
+      "curvature": 10
     },
     {
-      "id": 24,
+      "id": 11,
       "placeIds": [
-        10,
-        17
+        3,
+        6
       ],
-      "spaceAmount": 2,
+      "spaceAmount": 3,
       "lanes": [
         {
-          "id": 26,
-          "colour": "blue"
+          "id": 15,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 20
+    },
+    {
+      "id": 44,
+      "placeIds": [
+        8,
+        7
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 52,
+          "colour": "green"
         }
       ],
       "curvature": 8
@@ -844,8 +944,8 @@
     {
       "id": 3,
       "placeIds": [
-        20,
-        8
+        7,
+        2
       ],
       "spaceAmount": 3,
       "lanes": [
@@ -854,178 +954,297 @@
           "colour": "red"
         }
       ],
-      "curvature": 16
+      "curvature": 0
     },
     {
-      "id": 16,
+      "id": 27,
       "placeIds": [
-        22,
+        18,
+        10
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 33,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": -23
+    },
+    {
+      "id": 29,
+      "placeIds": [
+        6,
+        18
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 36,
+          "colour": "orange"
+        }
+      ],
+      "curvature": 28
+    },
+    {
+      "id": 17,
+      "placeIds": [
+        2,
+        12
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 23,
+          "colour": "black"
+        }
+      ],
+      "curvature": 8
+    },
+    {
+      "id": 54,
+      "placeIds": [
+        23,
+        21
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 65,
+          "colour": "grey"
+        }
+      ],
+      "curvature": -28
+    },
+    {
+      "id": 67,
+      "placeIds": [
+        24,
+        23
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 79,
+          "colour": "white"
+        }
+      ],
+      "curvature": 14
+    },
+    {
+      "id": 31,
+      "placeIds": [
+        28,
+        14
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 38,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 11
+    },
+    {
+      "id": 34,
+      "placeIds": [
+        15,
+        29
+      ],
+      "spaceAmount": 5,
+      "lanes": [
+        {
+          "id": 41,
+          "colour": "red"
+        }
+      ],
+      "curvature": 31
+    },
+    {
+      "id": 23,
+      "placeIds": [
+        28,
+        12
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 28,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 15,
+      "placeIds": [
+        13,
+        28
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 20,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": 17
+    },
+    {
+      "id": 48,
+      "placeIds": [
+        28,
+        27
+      ],
+      "spaceAmount": 3,
+      "lanes": [
+        {
+          "id": 56,
+          "colour": "orange"
+        }
+      ],
+      "curvature": -15
+    },
+    {
+      "id": 8,
+      "placeIds": [
+        3,
+        10
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 9,
+          "colour": "grey"
+        },
+        {
+          "id": 10,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 9
+    },
+    {
+      "id": 28,
+      "placeIds": [
+        10,
+        17
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 34,
+          "colour": "white"
+        },
+        {
+          "id": 35,
+          "colour": "orange"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 57,
+      "placeIds": [
+        21,
         24
       ],
       "spaceAmount": 2,
       "lanes": [
         {
-          "id": 17,
-          "colour": "grey",
-          "wildcardAmount": 1
-        }
-      ],
-      "curvature": -21
-    },
-    {
-      "id": 49,
-      "placeIds": [
-        24,
-        26
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 55,
-          "colour": "black"
-        },
-        {
-          "id": 56,
-          "colour": "green"
-        }
-      ],
-      "curvature": 0
-    },
-    {
-      "id": 50,
-      "placeIds": [
-        18,
-        25
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 57,
-          "colour": "purple"
-        },
-        {
-          "id": 58,
-          "colour": "white"
-        }
-      ],
-      "curvature": -20
-    },
-    {
-      "id": 60,
-      "placeIds": [
-        4,
-        16
-      ],
-      "spaceAmount": 4,
-      "lanes": [
-        {
-          "id": 71,
-          "colour": "grey"
-        },
-        {
-          "id": 72,
-          "colour": "grey"
-        }
-      ],
-      "curvature": 0
-    },
-    {
-      "id": 54,
-      "placeIds": [
-        5,
-        14
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 63,
+          "id": 68,
           "colour": "yellow"
         },
         {
-          "id": 64,
-          "colour": "red"
+          "id": 69,
+          "colour": "purple"
         }
       ],
-      "curvature": 39
+      "curvature": 0,
+      "isTunnel": true
     },
     {
-      "id": 27,
+      "id": 58,
       "placeIds": [
-        7,
-        2
+        23,
+        20
       ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 29,
-          "colour": "green"
-        }
-      ],
-      "curvature": -12
-    },
-    {
-      "id": 59,
-      "placeIds": [
-        4,
-        6
-      ],
-      "spaceAmount": 4,
+      "spaceAmount": 2,
       "lanes": [
         {
           "id": 70,
+          "colour": "green"
+        },
+        {
+          "id": 71,
           "colour": "black"
         }
       ],
-      "curvature": 59
+      "curvature": -18
     },
     {
-      "id": 41,
+      "id": 40,
       "placeIds": [
-        20,
-        19
+        9,
+        8
       ],
-      "spaceAmount": 4,
+      "spaceAmount": 2,
       "lanes": [
         {
           "id": 47,
-          "colour": "grey",
-          "wildcardAmount": 1
-        }
-      ],
-      "curvature": -13
-    },
-    {
-      "id": 42,
-      "placeIds": [
-        24,
-        28
-      ],
-      "spaceAmount": 4,
-      "lanes": [
-        {
-          "id": 48,
           "colour": "blue"
         }
       ],
-      "curvature": 10
+      "curvature": -1
     },
     {
-      "id": 57,
+      "id": 20,
       "placeIds": [
-        16,
-        15
+        17,
+        9
       ],
-      "spaceAmount": 3,
+      "spaceAmount": 2,
       "lanes": [
         {
-          "id": 67,
-          "colour": "yellow"
+          "id": 26,
+          "colour": "purple"
         }
       ],
-      "curvature": -11
+      "curvature": 13
     },
     {
-      "id": 70,
+      "id": 2,
+      "placeIds": [
+        2,
+        4
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 2,
+          "colour": "green"
+        }
+      ],
+      "curvature": -28
+    },
+    {
+      "id": 33,
+      "placeIds": [
+        15,
+        5
+      ],
+      "spaceAmount": 2,
+      "lanes": [
+        {
+          "id": 40,
+          "colour": "black"
+        }
+      ],
+      "curvature": -15
+    },
+    {
+      "id": 32,
       "placeIds": [
         14,
         15
@@ -1033,204 +1252,148 @@
       "spaceAmount": 2,
       "lanes": [
         {
-          "id": 80,
-          "colour": "white"
+          "id": 39,
+          "colour": "orange"
         }
       ],
-      "curvature": 0,
-      "routeType": "ocean"
+      "curvature": 7
     },
     {
-      "id": 8,
+      "id": 66,
       "placeIds": [
-        9,
-        21
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 9,
-          "colour": "green"
-        }
-      ],
-      "curvature": 18
-    },
-    {
-      "id": 17,
-      "placeIds": [
-        23,
-        22
+        26,
+        24
       ],
       "spaceAmount": 2,
       "lanes": [
         {
-          "id": 18,
-          "colour": "grey",
-          "wildcardAmount": 1
-        }
-      ],
-      "curvature": 25
-    },
-    {
-      "id": 4,
-      "placeIds": [
-        21,
-        20
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 4,
-          "colour": "black"
-        }
-      ],
-      "curvature": 14
-    },
-    {
-      "id": 2,
-      "placeIds": [
-        8,
-        9
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 2,
-          "colour": "purple"
+          "id": 78,
+          "colour": "red"
         }
       ],
       "curvature": 17
     },
     {
-      "id": 18,
+      "id": 4,
       "placeIds": [
-        17,
-        23
+        4,
+        3
       ],
-      "spaceAmount": 4,
+      "spaceAmount": 1,
       "lanes": [
         {
-          "id": 19,
-          "colour": "orange"
+          "id": 4,
+          "colour": "grey"
         },
         {
-          "id": 20,
-          "colour": "black"
-        }
-      ],
-      "curvature": 57,
-      "isTunnel": true
-    },
-    {
-      "id": 6,
-      "placeIds": [
-        8,
-        7
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 1,
-          "colour": "red"
-        },
-        {
-          "id": 2,
-          "colour": "blue"
+          "id": 5,
+          "colour": "grey"
         }
       ],
       "curvature": 0
     },
     {
-      "id": 33,
+      "id": 24,
       "placeIds": [
-        10,
-        6
+        12,
+        14
       ],
-      "spaceAmount": 2,
+      "spaceAmount": 1,
       "lanes": [
         {
-          "id": 36,
-          "colour": "yellow"
+          "id": 29,
+          "colour": "green"
         },
         {
-          "id": 37,
+          "id": 30,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 16,
+      "placeIds": [
+        12,
+        13
+      ],
+      "spaceAmount": 1,
+      "lanes": [
+        {
+          "id": 21,
+          "colour": "blue"
+        },
+        {
+          "id": 22,
           "colour": "white"
         }
       ],
-      "curvature": -13
-    },
-    {
-      "id": 37,
-      "placeIds": [
-        5,
-        3
-      ],
-      "spaceAmount": 8,
-      "lanes": [
-        {
-          "id": 42,
-          "colour": "grey"
-        },
-        {
-          "id": 43,
-          "colour": "grey"
-        }
-      ],
       "curvature": 0
     },
     {
-      "id": 35,
-      "placeIds": [
-        12,
-        2
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 39,
-          "colour": "blue"
-        },
-        {
-          "id": 40,
-          "colour": "purple"
-        }
-      ],
-      "curvature": 13
-    },
-    {
-      "id": 53,
-      "placeIds": [
-        13,
-        12
-      ],
-      "spaceAmount": 4,
-      "lanes": [
-        {
-          "id": 61,
-          "colour": "red"
-        },
-        {
-          "id": 62,
-          "colour": "green"
-        }
-      ],
-      "curvature": -6
-    },
-    {
-      "id": 65,
+      "id": 25,
       "placeIds": [
         13,
         11
       ],
-      "spaceAmount": 2,
+      "spaceAmount": 1,
       "lanes": [
         {
-          "id": 76,
-          "colour": "orange"
+          "id": 31,
+          "colour": "green"
         },
         {
-          "id": 77,
-          "colour": "blue"
+          "id": 32,
+          "colour": "orange"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 68,
+      "placeIds": [
+        25,
+        26
+      ],
+      "spaceAmount": 1,
+      "lanes": [
+        {
+          "id": 80,
+          "colour": "black"
+        },
+        {
+          "id": 81,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 19,
+      "placeIds": [
+        10,
+        9
+      ],
+      "spaceAmount": 1,
+      "lanes": [
+        {
+          "id": 25,
+          "colour": "black"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 18,
+      "placeIds": [
+        6,
+        10
+      ],
+      "spaceAmount": 1,
+      "lanes": [
+        {
+          "id": 24,
+          "colour": "red"
         }
       ],
       "curvature": 0
@@ -1238,145 +1401,636 @@
     {
       "id": 38,
       "placeIds": [
-        3,
-        4
+        18,
+        17
       ],
-      "spaceAmount": 4,
+      "spaceAmount": 1,
       "lanes": [
         {
-          "id": 44,
+          "id": 45,
+          "colour": "blue"
+        }
+      ],
+      "curvature": 0,
+      "isTunnel": true
+    },
+    {
+      "id": 55,
+      "placeIds": [
+        21,
+        20
+      ],
+      "spaceAmount": 1,
+      "lanes": [
+        {
+          "id": 66,
           "colour": "red"
         }
       ],
       "curvature": 0
     },
     {
-      "id": 47,
+      "id": 59,
       "placeIds": [
-        26,
-        25
+        25,
+        24
       ],
-      "spaceAmount": 3,
+      "spaceAmount": 1,
       "lanes": [
         {
-          "id": 53,
+          "id": 72,
+          "colour": "green"
+        }
+      ],
+      "curvature": 0,
+      "isTunnel": true
+    },
+    {
+      "id": 64,
+      "placeIds": [
+        23,
+        22
+      ],
+      "spaceAmount": 1,
+      "lanes": [
+        {
+          "id": 77,
+          "colour": "purple"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 71,
+      "placeIds": [
+        2,
+        8
+      ],
+      "spaceAmount": 6,
+      "lanes": [
+        {
+          "id": 83,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 0
+    },
+    {
+      "id": 72,
+      "placeIds": [
+        8,
+        21
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 84,
+          "colour": "grey"
+        },
+        {
+          "id": 85,
+          "colour": "grey"
+        }
+      ],
+      "curvature": 25.583975316501864
+    },
+    {
+      "id": 73,
+      "placeIds": [
+        27,
+        22
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 86,
+          "colour": "yellow"
+        }
+      ],
+      "curvature": -22,
+      "wrapAround": true
+    },
+    {
+      "id": 74,
+      "placeIds": [
+        29,
+        26
+      ],
+      "spaceAmount": 4,
+      "lanes": [
+        {
+          "id": 87,
+          "colour": "green"
+        }
+      ],
+      "curvature": -22,
+      "wrapAround": true
+    },
+    {
+      "id": 75,
+      "placeIds": [
+        8,
+        17
+      ],
+      "spaceAmount": 5,
+      "lanes": [
+        {
+          "id": 88,
           "colour": "blue"
         }
       ],
       "curvature": 0
     },
     {
-      "id": 64,
-      "placeIds": [
-        13,
-        14
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 75,
-          "colour": "black"
-        }
-      ],
-      "curvature": -1
-    },
-    {
-      "id": 71,
-      "placeIds": [
-        14,
-        28
-      ],
-      "spaceAmount": 4,
-      "lanes": [
-        {
-          "id": 81,
-          "colour": "grey"
-        }
-      ],
-      "curvature": 0,
-      "wrapAround": true
-    },
-    {
-      "id": 72,
-      "placeIds": [
-        15,
-        26
-      ],
-      "spaceAmount": 2,
-      "lanes": [
-        {
-          "id": 82,
-          "colour": "grey"
-        }
-      ],
-      "curvature": 8,
-      "wrapAround": true
-    },
-    {
-      "id": 73,
-      "placeIds": [
-        2,
-        8
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 83,
-          "colour": "green"
-        },
-        {
-          "id": 83,
-          "colour": "grey"
-        }
-      ],
-      "curvature": 0,
-      "routeType": "train"
-    },
-    {
-      "id": 75,
-      "placeIds": [
-        8,
-        12
-      ],
-      "spaceAmount": 3,
-      "lanes": [
-        {
-          "id": 1,
-          "colour": "grey"
-        }
-      ],
-      "curvature": 37
-    },
-    {
       "id": 76,
       "placeIds": [
-        27,
-        28
+        8,
+        4
       ],
-      "spaceAmount": 3,
+      "spaceAmount": 6,
       "lanes": [
         {
-          "id": 84,
+          "id": 89,
           "colour": "purple"
-        },
-        {
-          "id": 84,
-          "colour": "yellow"
         }
       ],
-      "curvature": 18
+      "curvature": 0
     }
   ],
   "routeDecks": {
-    "standard": [],
-    "highways": [],
+    "standard": [
+      {
+        "id": 27,
+        "placeIds": [
+          12,
+          22
+        ],
+        "score": 15
+      },
+      {
+        "id": 20,
+        "placeIds": [
+          7,
+          28
+        ],
+        "score": 14
+      },
+      {
+        "id": 30,
+        "placeIds": [
+          13,
+          29
+        ],
+        "score": 14
+      },
+      {
+        "id": 32,
+        "placeIds": [
+          14,
+          27
+        ],
+        "score": 14
+      },
+      {
+        "id": 9,
+        "placeIds": [
+          2,
+          22
+        ],
+        "score": 13
+      },
+      {
+        "id": 34,
+        "placeIds": [
+          15,
+          23
+        ],
+        "score": 13
+      },
+      {
+        "id": 12,
+        "placeIds": [
+          3,
+          27
+        ],
+        "score": 12
+      },
+      {
+        "id": 25,
+        "placeIds": [
+          11,
+          20
+        ],
+        "score": 12
+      },
+      {
+        "id": 4,
+        "placeIds": [
+          1,
+          24
+        ],
+        "score": 11
+      },
+      {
+        "id": 14,
+        "placeIds": [
+          4,
+          22
+        ],
+        "score": 11
+      },
+      {
+        "id": 29,
+        "placeIds": [
+          13,
+          26
+        ],
+        "score": 11
+      },
+      {
+        "id": 3,
+        "placeIds": [
+          1,
+          21
+        ],
+        "score": 10
+      },
+      {
+        "id": 15,
+        "placeIds": [
+          4,
+          29
+        ],
+        "score": 10
+      },
+      {
+        "id": 23,
+        "placeIds": [
+          9,
+          27
+        ],
+        "score": 10
+      },
+      {
+        "id": 31,
+        "placeIds": [
+          14,
+          20
+        ],
+        "score": 10
+      },
+      {
+        "id": 2,
+        "placeIds": [
+          1,
+          6
+        ],
+        "score": 9
+      },
+      {
+        "id": 26,
+        "placeIds": [
+          12,
+          19
+        ],
+        "score": 9
+      },
+      {
+        "id": 28,
+        "placeIds": [
+          13,
+          24
+        ],
+        "score": 9
+      },
+      {
+        "id": 10,
+        "placeIds": [
+          3,
+          20
+        ],
+        "score": 8
+      },
+      {
+        "id": 16,
+        "placeIds": [
+          5,
+          7
+        ],
+        "score": 8
+      },
+      {
+        "id": 22,
+        "placeIds": [
+          8,
+          23
+        ],
+        "score": 8
+      },
+      {
+        "id": 8,
+        "placeIds": [
+          2,
+          19
+        ],
+        "score": 7
+      },
+      {
+        "id": 11,
+        "placeIds": [
+          3,
+          25
+        ],
+        "score": 7
+      },
+      {
+        "id": 17,
+        "placeIds": [
+          5,
+          8
+        ],
+        "score": 7
+      },
+      {
+        "id": 24,
+        "placeIds": [
+          11,
+          10
+        ],
+        "score": 7
+      },
+      {
+        "id": 1,
+        "placeIds": [
+          1,
+          4
+        ],
+        "score": 6
+      },
+      {
+        "id": 7,
+        "placeIds": [
+          2,
+          17
+        ],
+        "score": 6
+      },
+      {
+        "id": 19,
+        "placeIds": [
+          7,
+          10
+        ],
+        "score": 6
+      },
+      {
+        "id": 0,
+        "placeIds": [
+          1,
+          3
+        ],
+        "score": 5
+      },
+      {
+        "id": 5,
+        "placeIds": [
+          2,
+          6
+        ],
+        "score": 5
+      },
+      {
+        "id": 33,
+        "placeIds": [
+          15,
+          10
+        ],
+        "score": 5
+      },
+      {
+        "id": 35,
+        "placeIds": [
+          25,
+          21
+        ],
+        "score": 5
+      },
+      {
+        "id": 6,
+        "placeIds": [
+          2,
+          9
+        ],
+        "score": 4
+      },
+      {
+        "id": 13,
+        "placeIds": [
+          4,
+          17
+        ],
+        "score": 4
+      },
+      {
+        "id": 18,
+        "placeIds": [
+          6,
+          24
+        ],
+        "score": 4
+      },
+      {
+        "id": 21,
+        "placeIds": [
+          8,
+          18
+        ],
+        "score": 4
+      }
+    ],
+    "highways": [
+      {
+        "id": 18,
+        "placeIds": [
+          1,
+          25
+        ],
+        "score": 12,
+        "isHighway": true
+      },
+      {
+        "id": 19,
+        "placeIds": [
+          2,
+          23
+        ],
+        "score": 12,
+        "isHighway": true
+      },
+      {
+        "id": 20,
+        "placeIds": [
+          4,
+          28
+        ],
+        "score": 12,
+        "isHighway": true
+      },
+      {
+        "id": 21,
+        "placeIds": [
+          5,
+          29
+        ],
+        "score": 12,
+        "isHighway": true
+      },
+      {
+        "id": 22,
+        "placeIds": [
+          7,
+          22
+        ],
+        "score": 12,
+        "isHighway": true
+      },
+      {
+        "id": 23,
+        "placeIds": [
+          11,
+          20
+        ],
+        "score": 12,
+        "isHighway": true
+      },
+      {
+        "id": 25,
+        "placeIds": [
+          2,
+          21
+        ],
+        "score": 8
+      },
+      {
+        "id": 31,
+        "placeIds": [
+          5,
+          19
+        ],
+        "score": 8
+      },
+      {
+        "id": 36,
+        "placeIds": [
+          13,
+          8
+        ],
+        "score": 8
+      },
+      {
+        "id": 26,
+        "placeIds": [
+          2,
+          24
+        ],
+        "score": 7
+      },
+      {
+        "id": 35,
+        "placeIds": [
+          13,
+          6
+        ],
+        "score": 7
+      },
+      {
+        "id": 38,
+        "placeIds": [
+          19,
+          25
+        ],
+        "score": 7
+      },
+      {
+        "id": 29,
+        "placeIds": [
+          4,
+          21
+        ],
+        "score": 6
+      },
+      {
+        "id": 33,
+        "placeIds": [
+          7,
+          10
+        ],
+        "score": 6
+      },
+      {
+        "id": 37,
+        "placeIds": [
+          15,
+          18
+        ],
+        "score": 6
+      },
+      {
+        "id": 24,
+        "placeIds": [
+          2,
+          6
+        ],
+        "score": 5
+      },
+      {
+        "id": 27,
+        "placeIds": [
+          3,
+          8
+        ],
+        "score": 5
+      },
+      {
+        "id": 30,
+        "placeIds": [
+          4,
+          24
+        ],
+        "score": 5
+      },
+      {
+        "id": 28,
+        "placeIds": [
+          4,
+          17
+        ],
+        "score": 4
+      },
+      {
+        "id": 32,
+        "placeIds": [
+          6,
+          8
+        ],
+        "score": 4
+      },
+      {
+        "id": 34,
+        "placeIds": [
+          9,
+          24
+        ],
+        "score": 4
+      }
+    ],
     "hotspots": []
   },
   "placements": {
     "rules": {
       "coordinate": {
-        "x": 5.3,
-        "y": 3.0727272727272728
+        "x": 64.14,
+        "y": 40.96727272727273
       },
       "dimensions": {
         "width": 10,
@@ -1385,7 +2039,7 @@
       "includeRoadPoints": false
     },
     "attribution": {
-      "x": 65.17024574669188,
+      "x": 4.269754253308129,
       "y": 0.8
     }
   },
