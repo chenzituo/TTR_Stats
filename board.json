@@ -1243,14 +1243,14 @@
     {
       "id": 48,
       "placeIds": [
-        18,
-        25
+        4,
+        15
       ],
       "spaceAmount": 4.0,
       "lanes": [
         {
           "id": 48,
-          "colour": "black"
+          "colour": "yellow"
         }
       ],
       "routeType": "ocean"
@@ -1259,16 +1259,15 @@
       "id": 49,
       "placeIds": [
         4,
-        15
+        3
       ],
-      "spaceAmount": 4.0,
+      "spaceAmount": 1.0,
       "lanes": [
         {
           "id": 49,
-          "colour": "yellow"
+          "colour": "green"
         }
-      ],
-      "routeType": "ocean"
+      ]
     },
     {
       "id": 50,
@@ -1280,26 +1279,12 @@
       "lanes": [
         {
           "id": 50,
-          "colour": "green"
-        }
-      ]
-    },
-    {
-      "id": 51,
-      "placeIds": [
-        4,
-        3
-      ],
-      "spaceAmount": 1.0,
-      "lanes": [
-        {
-          "id": 51,
           "colour": "black"
         }
       ]
     },
     {
-      "id": 52,
+      "id": 51,
       "placeIds": [
         24,
         21
@@ -1307,13 +1292,13 @@
       "spaceAmount": 2.0,
       "lanes": [
         {
-          "id": 52,
+          "id": 51,
           "colour": "yellow"
         }
       ]
     },
     {
-      "id": 53,
+      "id": 52,
       "placeIds": [
         24,
         28
@@ -1321,13 +1306,13 @@
       "spaceAmount": 4.0,
       "lanes": [
         {
-          "id": 53,
+          "id": 52,
           "colour": "red"
         }
       ]
     },
     {
-      "id": 54,
+      "id": 53,
       "placeIds": [
         24,
         26
@@ -1335,13 +1320,13 @@
       "spaceAmount": 2.0,
       "lanes": [
         {
-          "id": 54,
+          "id": 53,
           "colour": "green"
         }
       ]
     },
     {
-      "id": 55,
+      "id": 54,
       "placeIds": [
         24,
         25
@@ -1349,13 +1334,13 @@
       "spaceAmount": 2.0,
       "lanes": [
         {
-          "id": 55,
+          "id": 54,
           "colour": "grey"
         }
       ]
     },
     {
-      "id": 56,
+      "id": 55,
       "placeIds": [
         26,
         25
@@ -1363,11 +1348,25 @@
       "spaceAmount": 1.0,
       "lanes": [
         {
-          "id": 56,
+          "id": 55,
           "colour": "red"
         }
       ],
       "routeType": "ocean"
+    },
+    {
+      "id": 56,
+      "placeIds": [
+        9,
+        10
+      ],
+      "spaceAmount": 1.0,
+      "lanes": [
+        {
+          "id": 56,
+          "colour": "grey"
+        }
+      ]
     },
     {
       "id": 57,
@@ -1379,26 +1378,12 @@
       "lanes": [
         {
           "id": 57,
-          "colour": "grey"
-        }
-      ]
-    },
-    {
-      "id": 58,
-      "placeIds": [
-        9,
-        10
-      ],
-      "spaceAmount": 1.0,
-      "lanes": [
-        {
-          "id": 58,
           "colour": "white"
         }
       ]
     },
     {
-      "id": 59,
+      "id": 58,
       "placeIds": [
         23,
         21
@@ -1406,13 +1391,13 @@
       "spaceAmount": 1.0,
       "lanes": [
         {
-          "id": 59,
+          "id": 58,
           "colour": "grey"
         }
       ]
     },
     {
-      "id": 60,
+      "id": 59,
       "placeIds": [
         20,
         21
@@ -1420,8 +1405,167 @@
       "spaceAmount": 1.0,
       "lanes": [
         {
-          "id": 60,
+          "id": 59,
           "colour": "white"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "placeIds": [
+        11,
+        12
+      ],
+      "spaceAmount": 3.0,
+      "lanes": [
+        {
+          "id": 60,
+          "colour": "red"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "placeIds": [
+        13,
+        14
+      ],
+      "spaceAmount": 3.0,
+      "lanes": [
+        {
+          "id": 61,
+          "colour": "white"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "placeIds": [
+        6,
+        7
+      ],
+      "spaceAmount": 2.0,
+      "lanes": [
+        {
+          "id": 62,
+          "colour": "black"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "placeIds": [
+        6,
+        4
+      ],
+      "spaceAmount": 6.0,
+      "lanes": [
+        {
+          "id": 63,
+          "colour": "grey"
+        }
+      ],
+      "routeType": "ocean"
+    },
+    {
+      "id": 64,
+      "placeIds": [
+        20,
+        23
+      ],
+      "spaceAmount": 1.0,
+      "lanes": [
+        {
+          "id": 64,
+          "colour": "red"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "placeIds": [
+        24,
+        23
+      ],
+      "spaceAmount": 2.0,
+      "lanes": [
+        {
+          "id": 65,
+          "colour": "purple"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "placeIds": [
+        25,
+        18
+      ],
+      "spaceAmount": 5.0,
+      "lanes": [
+        {
+          "id": 66,
+          "colour": "black"
+        }
+      ],
+      "routeType": "ocean"
+    },
+    {
+      "id": 67,
+      "placeIds": [
+        25,
+        26
+      ],
+      "spaceAmount": 1.0,
+      "lanes": [
+        {
+          "id": 67,
+          "colour": "black"
+        }
+      ],
+      "routeType": "ocean"
+    },
+    {
+      "id": 68,
+      "placeIds": [
+        28,
+        26
+      ],
+      "spaceAmount": 3.0,
+      "lanes": [
+        {
+          "id": 68,
+          "colour": "yellow"
+        }
+      ],
+      "routeType": "ocean"
+    },
+    {
+      "id": 69,
+      "placeIds": [
+        29,
+        26
+      ],
+      "spaceAmount": 4.0,
+      "lanes": [
+        {
+          "id": 69,
+          "colour": "purple"
+        }
+      ],
+      "routeType": "ocean"
+    },
+    {
+      "id": 70,
+      "placeIds": [
+        20,
+        19
+      ],
+      "spaceAmount": 2.0,
+      "lanes": [
+        {
+          "id": 70,
+          "colour": "grey"
         }
       ]
     }
@@ -1430,59 +1574,19 @@
     "standard": [
       {
         "placeIds": [
-          10,
-          24
+          3,
+          28
         ],
-        "score": 10,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          23,
-          25
-        ],
-        "score": 6,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          5,
-          13
-        ],
-        "score": 6,
+        "score": 7,
         "hops": 4
       },
       {
         "placeIds": [
-          7,
-          12
+          2,
+          18
         ],
         "score": 10,
         "hops": 5
-      },
-      {
-        "placeIds": [
-          23,
-          27
-        ],
-        "score": 5,
-        "hops": 2
-      },
-      {
-        "placeIds": [
-          18,
-          27
-        ],
-        "score": 9,
-        "hops": 4
-      },
-      {
-        "placeIds": [
-          4,
-          14
-        ],
-        "score": 5,
-        "hops": 2
       },
       {
         "placeIds": [
@@ -1494,7 +1598,15 @@
       },
       {
         "placeIds": [
-          3,
+          4,
+          11
+        ],
+        "score": 7,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          23,
           29
         ],
         "score": 7,
@@ -1502,152 +1614,144 @@
       },
       {
         "placeIds": [
-          3,
-          17
-        ],
-        "score": 10,
-        "hops": 4
-      },
-      {
-        "placeIds": [
-          22,
-          24
-        ],
-        "score": 5,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          3,
-          28
-        ],
-        "score": 7,
-        "hops": 4
-      },
-      {
-        "placeIds": [
-          3,
-          9
-        ],
-        "score": 7,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          4,
-          28
+          23,
+          27
         ],
         "score": 6,
-        "hops": 3
+        "hops": 2
       },
       {
         "placeIds": [
-          4,
-          8
-        ],
-        "score": 9,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          2,
-          11
-        ],
-        "score": 7,
-        "hops": 4
-      },
-      {
-        "placeIds": [
-          13,
-          23
-        ],
-        "score": 7,
-        "hops": 4
-      },
-      {
-        "placeIds": [
-          19,
-          28
-        ],
-        "score": 10,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          12,
+          9,
           19
         ],
-        "score": 10,
-        "hops": 4
-      },
-      {
-        "placeIds": [
-          2,
-          25
-        ],
-        "score": 10,
-        "hops": 4
-      },
-      {
-        "placeIds": [
-          4,
-          10
-        ],
-        "score": 7,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          11,
-          23
-        ],
         "score": 6,
-        "hops": 3
+        "hops": 2
       },
       {
         "placeIds": [
           13,
           20
         ],
+        "score": 8,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          6,
+          28
+        ],
         "score": 9,
         "hops": 4
       },
       {
         "placeIds": [
-          5,
-          26
-        ],
-        "score": 8,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          22,
-          29
-        ],
-        "score": 8,
-        "hops": 3
-      },
-      {
-        "placeIds": [
-          1,
-          21
+          10,
+          12
         ],
         "score": 10,
         "hops": 5
       },
       {
         "placeIds": [
-          2,
-          8
+          5,
+          23
         ],
         "score": 10,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          23,
+          28
+        ],
+        "score": 6,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          12,
+          28
+        ],
+        "score": 5,
         "hops": 2
       },
       {
         "placeIds": [
-          4,
-          9
+          18,
+          24
+        ],
+        "score": 6,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          5,
+          12
+        ],
+        "score": 6,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          2,
+          25
+        ],
+        "score": 7,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          5,
+          8
+        ],
+        "score": 10,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          5,
+          21
+        ],
+        "score": 10,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          1,
+          4
+        ],
+        "score": 9,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          7,
+          17
+        ],
+        "score": 7,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          6,
+          23
+        ],
+        "score": 10,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          6,
+          15
+        ],
+        "score": 6,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          5,
+          18
         ],
         "score": 9,
         "hops": 4
@@ -1655,180 +1759,268 @@
       {
         "placeIds": [
           14,
-          26
+          20
+        ],
+        "score": 9,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          7,
+          25
         ],
         "score": 9,
         "hops": 3
       },
       {
         "placeIds": [
-          18,
-          22
+          3,
+          15
         ],
         "score": 5,
-        "hops": 3
-      }
-    ],
-    "highways": [
+        "hops": 2
+      },
       {
         "placeIds": [
           3,
-          22
-        ],
-        "score": 17,
-        "hops": 6
-      },
-      {
-        "placeIds": [
-          10,
-          27
-        ],
-        "score": 22,
-        "hops": 5
-      },
-      {
-        "placeIds": [
-          1,
-          26
-        ],
-        "score": 23,
-        "hops": 5
-      },
-      {
-        "placeIds": [
-          13,
           21
         ],
-        "score": 15,
-        "hops": 5
+        "score": 11,
+        "hops": 4
       },
       {
         "placeIds": [
-          3,
-          23
+          21,
+          29
         ],
-        "score": 19,
-        "hops": 7
-      },
-      {
-        "placeIds": [
-          10,
-          11
-        ],
-        "score": 24,
-        "hops": 6
+        "score": 7,
+        "hops": 3
       },
       {
         "placeIds": [
           8,
-          13
-        ],
-        "score": 24,
-        "hops": 7
-      },
-      {
-        "placeIds": [
-          10,
-          12
-        ],
-        "score": 18,
-        "hops": 6
-      },
-      {
-        "placeIds": [
-          15,
-          19
-        ],
-        "score": 19,
-        "hops": 5
-      },
-      {
-        "placeIds": [
-          7,
-          28
-        ],
-        "score": 17,
-        "hops": 5
-      },
-      {
-        "placeIds": [
-          2,
-          20
-        ],
-        "score": 18,
-        "hops": 5
-      },
-      {
-        "placeIds": [
-          15,
-          17
-        ],
-        "score": 19,
-        "hops": 6
-      },
-      {
-        "placeIds": [
-          9,
           11
         ],
-        "score": 23,
-        "hops": 5
-      },
-      {
-        "placeIds": [
-          8,
-          12
-        ],
-        "score": 22,
-        "hops": 6
-      },
-      {
-        "placeIds": [
-          6,
-          11
-        ],
-        "score": 18,
-        "hops": 7
+        "score": 11,
+        "hops": 2
       },
       {
         "placeIds": [
           4,
           17
         ],
-        "score": 19,
+        "score": 11,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          4,
+          27
+        ],
+        "score": 7,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          7,
+          9
+        ],
+        "score": 5,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          8,
+          23
+        ],
+        "score": 8,
+        "hops": 3
+      },
+      {
+        "placeIds": [
+          20,
+          27
+        ],
+        "score": 6,
+        "hops": 2
+      },
+      {
+        "placeIds": [
+          11,
+          21
+        ],
+        "score": 7,
+        "hops": 4
+      },
+      {
+        "placeIds": [
+          13,
+          23
+        ],
+        "score": 7,
+        "hops": 4
+      }
+    ],
+    "highways": [
+      {
+        "placeIds": [
+          5,
+          17
+        ],
+        "score": 21,
         "hops": 5
       },
       {
         "placeIds": [
           10,
-          14
+          12
+        ],
+        "score": 21,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          8,
+          26
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          13,
+          17
+        ],
+        "score": 20,
+        "hops": 7
+      },
+      {
+        "placeIds": [
+          9,
+          11
+        ],
+        "score": 24,
+        "hops": 7
+      },
+      {
+        "placeIds": [
+          3,
+          24
+        ],
+        "score": 21,
+        "hops": 6
+      },
+      {
+        "placeIds": [
+          14,
+          17
+        ],
+        "score": 17,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          1,
+          15
+        ],
+        "score": 18,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          4,
+          22
+        ],
+        "score": 20,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          3,
+          20
+        ],
+        "score": 25,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          1,
+          25
+        ],
+        "score": 18,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          4,
+          11
         ],
         "score": 16,
         "hops": 5
       },
       {
         "placeIds": [
-          12,
-          23
+          3,
+          27
+        ],
+        "score": 16,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          11,
+          18
+        ],
+        "score": 16,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          13,
+          25
         ],
         "score": 15,
         "hops": 5
       },
       {
         "placeIds": [
-          7,
+          6,
           11
         ],
-        "score": 22,
-        "hops": 7
+        "score": 21,
+        "hops": 6
       },
       {
         "placeIds": [
-          10,
-          28
+          12,
+          21
         ],
         "score": 19,
+        "hops": 5
+      },
+      {
+        "placeIds": [
+          13,
+          18
+        ],
+        "score": 18,
         "hops": 6
+      },
+      {
+        "placeIds": [
+          4,
+          21
+        ],
+        "score": 23,
+        "hops": 6
+      },
+      {
+        "placeIds": [
+          8,
+          14
+        ],
+        "score": 23,
+        "hops": 5
       }
     ],
     "hotspots": []
