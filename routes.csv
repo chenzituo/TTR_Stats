@@ -1,0 +1,160 @@
+start,end,type,color,length
+Almaty,Moscow,train,white,4.0
+Almaty,Tashkent,train,black,1.0
+Almaty,Tashkent,train,green,1.0
+Almaty,Tbilisi,train,red,2.0
+Almaty,Beijing,train,white,2.0
+Almaty,Beijing,train,red,2.0
+Beijing,Chengdu,train,black,2.0
+Beijing,Shanghai,train,purple,3.0
+Beijing,Shanghai,train,red,3.0
+Beijing,Seoul,train,green,6.0
+Beijing,Busan,ship,green,3.0
+Beijing,Tokyo,ship,yellow,3.0
+Berkeley,Tokyo,ship,green,3.0
+Berkeley,Seattle,train,green,3.0
+Berkeley,Seattle,train,red,3.0
+Berkeley,Denver,train,purple,5.0
+Berkeley,Denver,train,black,5.0
+Berkeley,Riverside,train,grey,1.0
+Berkeley,Long Beach,train,white,2.0
+Berkeley,Long Beach,train,yellow,2.0
+Berkeley,Shanghai,ship,red,3.0
+Berlin,London,ship,black,2.0
+Berlin,London,ship,purple,2.0
+Berlin,Moscow,train,green,4.0
+Berlin,Tbilisi,train,grey,2.0
+Berlin,Tbilisi,train,white,2.0
+Berlin,Paris,train,black,2.0
+Boston,Toronto,train,purple,2.0
+Boston,Toronto,train,yellow,2.0
+Boston,Reykjavik,ship,green,6.0
+Boston,Stockholm,ship,black,6.0
+Boston,London,ship,red,5.0
+Boston,London,ship,green,5.0
+Boston,Philadelphia,train,white,1.0
+Boston,Philadelphia,train,grey,1.0
+Boston,Columbus,train,red,3.0
+Busan,Goesan,train,black,3.0
+Busan,Tokyo,ship,red,1.0
+Busan,Tokyo,ship,purple,1.0
+Busan,Daegu,train,red,1.0
+Busan,Daegu,train,green,1.0
+Caracas,Mexico City,train,white,4.0
+Caracas,Mexico City,train,yellow,4.0
+Caracas,Havana,ship,yellow,1.0
+Caracas,Havana,ship,white,1.0
+Caracas,Casablanca,ship,red,7.0
+Caracas,Casablanca,ship,green,7.0
+Casablanca,Havana,ship,black,6.0
+Casablanca,Madrid,ship,white,1.0
+Casablanca,Madrid,ship,yellow,1.0
+Casablanca,Jerusalem,train,purple,3.0
+Casablanca,Jerusalem,train,red,3.0
+Casablanca,Dubai,train,grey,5.0
+Chengdu,Yerevan,train,red,4.0
+Chengdu,Tashkent,train,yellow,3.0
+Chengdu,Shanghai,train,green,3.0
+Chengdu,Hongkong,train,grey,3.0
+Chengdu,Kunming,train,white,2.0
+Columbus,Seattle,train,white,6.0
+Columbus,Toronto,train,grey,1.0
+Columbus,Toronto,train,green,1.0
+Columbus,Philadelphia,train,grey,3.0
+Columbus,Denver,train,green,2.0
+Daegu,Seoul,train,grey,3.0
+Daegu,Goesan,train,white,1.0
+Daegu,Goesan,train,yellow,1.0
+Denver,Washington DC,train,yellow,3.0
+Denver,Washington DC,train,red,3.0
+Denver,Fort Worth,train,white,2.0
+Denver,Riverside,train,red,3.0
+Dili,Hongkong,ship,green,2.0
+Dili,Hongkong,ship,red,2.0
+Dili,Hilo,ship,black,4.0
+Dili,Hilo,ship,grey,4.0
+Dili,Mawlamyine,ship,yellow,5.0
+Dili,Mawlamyine,ship,white,5.0
+Dubai,Jerusalem,train,yellow,1.0
+Dubai,Jerusalem,train,green,1.0
+Dubai,Yangon,ship,red,1.0
+Dubai,Yangon,ship,yellow,1.0
+Dubai,Mawlamyine,ship,green,3.0
+Fairbanks,Seoul,ship,red,4.0
+Fairbanks,Seoul,ship,green,4.0
+Fairbanks,Toronto,train,black,8.0
+Fairbanks,Toronto,train,grey,8.0
+Fairbanks,Seattle,train,white,2.0
+Fairbanks,Seattle,train,yellow,2.0
+Fort Worth,Washington DC,train,purple,3.0
+Fort Worth,Miami,train,green,3.0
+Fort Worth,Mexico City,ship,white,4.0
+Fort Worth,Riverside,train,yellow,4.0
+Goesan,Seoul,train,black,1.0
+Goesan,Seoul,train,purple,1.0
+Havana,Miami,ship,black,1.0
+Havana,Miami,ship,green,1.0
+Havana,Mexico City,ship,purple,4.0
+Hilo,Hongkong,ship,purple,3.0
+Hilo,Long Beach,ship,white,2.0
+Hilo,Long Beach,ship,grey,2.0
+Hilo,Mexico City,ship,green,3.0
+Hilo,Mexico City,ship,red,3.0
+Hongkong,Kunming,train,purple,3.0
+Hongkong,Kunming,train,black,3.0
+Hongkong,Shanghai,train,yellow,3.0
+Hongkong,Shanghai,train,white,3.0
+Istanbul,Paris,train,white,2.0
+Istanbul,Yerevan,train,grey,2.0
+Istanbul,Izmir,train,red,1.0
+Istanbul,Izmir,train,green,1.0
+Istanbul,Madrid,ship,black,3.0
+Izmir,Yerevan,train,yellow,1.0
+Izmir,Mandalay,train,purple,2.0
+Izmir,Jerusalem,train,green,2.0
+Izmir,Jerusalem,train,grey,2.0
+Jerusalem,Madrid,ship,red,3.0
+Jerusalem,Mandalay,train,black,3.0
+Jerusalem,Mandalay,train,white,3.0
+Kunming,Mandalay,train,red,2.0
+Kunming,Mandalay,train,green,2.0
+Kunming,Mawlamyine,train,yellow,3.0
+London,Stockholm,ship,yellow,2.0
+London,Stockholm,ship,green,2.0
+London,Paris,ship,white,2.0
+London,Paris,ship,grey,2.0
+London,Philadelphia,ship,red,5.0
+London,Philadelphia,ship,green,5.0
+Long Beach,Shanghai,ship,yellow,3.0
+Long Beach,Riverside,train,black,1.0
+Long Beach,Riverside,train,green,1.0
+Long Beach,Mexico City,train,purple,4.0
+Long Beach,Mexico City,train,red,4.0
+Madrid,Paris,train,purple,3.0
+Madrid,Paris,train,green,3.0
+Madrid,Miami,ship,purple,6.0
+Madrid,Miami,ship,white,6.0
+Mandalay,Yerevan,train,white,3.0
+Mandalay,Yerevan,train,yellow,3.0
+Mandalay,Yangon,train,red,1.0
+Mandalay,Yangon,train,purple,1.0
+Mawlamyine,Yangon,ship,black,1.0
+Mawlamyine,Yangon,ship,purple,1.0
+Miami,Washington DC,train,white,3.0
+Moscow,Stockholm,train,red,4.0
+Moscow,Tbilisi,train,yellow,4.0
+Paris,Philadelphia,ship,purple,6.0
+Philadelphia,Washington DC,train,green,1.0
+Philadelphia,Washington DC,train,black,1.0
+Reykjavik,Toronto,ship,white,7.0
+Reykjavik,Toronto,ship,grey,7.0
+Reykjavik,Stockholm,ship,purple,4.0
+Reykjavik,Stockholm,ship,yellow,4.0
+Seattle,Seoul,ship,black,4.0
+Seattle,Tokyo,ship,purple,3.0
+Shanghai,Tokyo,ship,black,2.0
+Tashkent,Tbilisi,train,green,1.0
+Tashkent,Tbilisi,train,grey,1.0
+Tashkent,Yerevan,train,white,1.0
+Tbilisi,Yerevan,train,black,1.0
+Tbilisi,Yerevan,train,purple,1.0
